@@ -58,7 +58,6 @@ box-shadow: -2px 2px 6px 1px rgba(168,168,168,1);*/
 }
 
 header, .main-content-jumbo, .contact, footer {
-
   -webkit-box-shadow: 0px 0px 6px 0px rgba(168,168,168,1);
   -moz-box-shadow: 0px 0px 6px 0px rgba(168,168,168,1);
   box-shadow: 0px 0px 6px 0px rgba(168,168,168,1);
@@ -209,34 +208,28 @@ font-size: 25px;
 }
 
 .contact-links {
-  background-color: #737977;
+  /*width: 100%;*/
+    background-color: #737977;
     color: #f5f5f5;
     padding: 30px;
 }
 
 .contact-links, .contact {
   border-radius: 3px 3px 0 0;
+  /*border: 1px solid blue;*/
+
 }
 
 footer {
   border-radius: 0 0 33px 33px;
   background-color: #cc3d43;
-  padding: 12px;
+  /*padding: 12px;*/
   margin: 0;
   text-align: center;
   border-radius: 0 0 3px 3px;
   color: #e0dcdc;
-
-
+   /*border: 1px solid blue;*/
 }
-footer p {
-
-}
-
-
-
-/* Contact Me ------------------------------- */
-
 
 
 /* color gradient rating bar ------------------------------- */
