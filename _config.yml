@@ -1,0 +1,2 @@
+baseurl: /phil-portfolio
+exclude: ['README.md']
