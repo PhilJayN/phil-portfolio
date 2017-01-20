@@ -1,2 +1,3 @@
 baseurl: /phil-portfolio
 exclude: ['README.md']
+port: 4444
