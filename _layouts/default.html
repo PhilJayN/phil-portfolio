@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Philip Nguyen</title>
     <link href="{{site.baseurl}}/css/common.css" type="text/css" rel="stylesheet" />
-  </head>
-  <body>
+</head>
+
+<body>
 
     <header>
+        {% include nav.html %}
 
-{% include nav.html %}
-
+    
     </header>
-{{content}}
 
-{% include footer.html %}
+    {{content}}
 
-  </body>
+    <footer>
+        {% include footer.html %}
+    </footer>
+
+</body>
+
 </html>
