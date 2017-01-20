@@ -231,6 +231,9 @@ footer {
    /*border: 1px solid blue;*/
 }
 
+footer p {
+  padding-bottom: 25px;
+}
 
 /* color gradient rating bar ------------------------------- */
 
