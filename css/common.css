@@ -1,21 +1,22 @@
 /* CSS for main page ------------------------------- */
 
+
 /*container------------------------------------------------------------- */
 
 html {
-  background-color: #e9e9e9;
+    background-color: #e9e9e9;
 }
 
-body {
 
-      font-family: 'Lato', sans-serif;
+body {
+    font-family: 'Lato', sans-serif;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     /*original dark grayish    background-color: #262830;*/
     /*background-color: #e8e8e8;*/
     /*border: 1px solid blue;*/
-background-color: #f2f2f2;
+    background-color: #f2f2f2;
 }
 
 .nav-bar {
@@ -25,12 +26,15 @@ background-color: #f2f2f2;
     padding: 8px;
 }
 
-a {
+nav a {
     text-decoration: none;
     padding: 10px;
     /*border: 1px solid blue;*/
 }
 
+a {
+    text-decoration: none;
+}
 
 .menu-links {
     color: #f5f5f5;
@@ -44,31 +48,25 @@ a {
 }
 
 .main-content-jumbo {
-  /*border: 1px solid blue;*/
-  margin-top: 9px;
-  margin-bottom: 9px;
-
-  padding: 40px;
-border-radius: 3px;
-
-/*-webkit-box-shadow: -2px 2px 6px 1px rgba(168,168,168,1);
+    /*border: 1px solid blue;*/
+    margin-top: 9px;
+    margin-bottom: 9px;
+    padding: 40px;
+    border-radius: 3px;
+    /*-webkit-box-shadow: -2px 2px 6px 1px rgba(168,168,168,1);
 -moz-box-shadow: -2px 2px 6px 1px rgba(168,168,168,1);
 box-shadow: -2px 2px 6px 1px rgba(168,168,168,1);*/
-
 }
 
 header, .main-content-jumbo, .contact, footer {
-  -webkit-box-shadow: 0px 0px 6px 0px rgba(168,168,168,1);
-  -moz-box-shadow: 0px 0px 6px 0px rgba(168,168,168,1);
-  box-shadow: 0px 0px 6px 0px rgba(168,168,168,1);
-
-
+    -webkit-box-shadow: 0 0 6px 0 rgba(168, 168, 168, 1);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(168, 168, 168, 1);
+    box-shadow: 0px 0px 6px 0px rgba(168, 168, 168, 1);
 }
 
 header {
-  /*border: 1px solid black;*/
-
-  border-radius: 0 0 10px 10px;
+    /*border: 1px solid black;*/
+    border-radius: 0 0 10px 10px;
 }
 
 .banner {
@@ -79,35 +77,30 @@ header {
 }
 
 .welcome {
-  width: 66%;
-  margin-top: 50px;
-  margin-bottom: 80px;
-/*padding: 30px;*/
+    width: 66%;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    /*padding: 30px;*/
 }
 
 .who-am-i {
-  /*text-align:  center;*/
-color:#9C1014;
-font-size: 35px;
-/*line-height: 100%;*/
-font-family: 'Raleway', sans-serif;
-
-
+    /*text-align:  center;*/
+    color: #9C1014;
+    font-size: 35px;
+    /*line-height: 100%;*/
+    font-family: 'Raleway', sans-serif;
 }
 
-
 .welcome h3 {
-color:#cc171d;
-font-size: 25px;
-
+    color: #cc171d;
+    font-size: 25px;
 }
 
 .welcome p {
-
-  font-size: 22px;
-  line-height: 200%;
-
+    font-size: 22px;
+    line-height: 200%;
 }
+
 
 /*Flex container--------------------------------------------------------------*/
 
@@ -123,9 +116,10 @@ font-size: 25px;
     /*width: 700px;*/
 }
 
+
 /*For all flex items--------------------------------------------------------------*/
 
-.project-calc, .project-gas-calc{
+.project-calc, .project-gas-calc {
     /*border: 5px;*/
     /*width: 300px;
     height: 200px;
@@ -139,15 +133,12 @@ font-size: 25px;
 }
 
 
-
-
 /*images-------------------------------------------------------------*/
 
 .image {
     width: 293px;
     height: 317px;
 }
-
 
 .project-container-jumbo img {
     max-width: 100%;
@@ -160,207 +151,124 @@ font-size: 25px;
 }
 
 .project-container-jumbo li {
-  color: black;
+    color: black;
 }
 
 .project-container-jumbo ul {
-  color: black;
-   border: 1px solid tomato;
+    color: black;
+    border: 1px solid tomato;
     text-align: center;
 }
 
-
 .fa-github-square {
-  color: #333333;
-  font-size: 30px;
+    color: #333333;
+    font-size: 30px;
 }
 
 .fa-linkedin-square {
-  color: #0177B5;
-  font-size: 30px;
+    color: #0177B5;
+    font-size: 30px;
 }
 
 .fa-meetup {
-  color: #ED1C40;
-  font-size: 30px;
+    color: #ED1C40;
+    font-size: 30px;
 }
 
 .fa- {
-  color: #0177B5;
-  font-size: 30px;
+    color: #0177B5;
+    font-size: 30px;
 }
 
-.fa-slack{
-  color: #0177B5;
-  font-size: 30px;
+.fa-slack {
+    color: #0177B5;
+    font-size: 30px;
 }
 
-.fa-twitter-square{
-  color: #3B99FC;
-  font-size: 30px;
+.fa-twitter-square {
+    color: #3B99FC;
+    font-size: 30px;
 }
 
-.fa-youtube{
-  color: #E30019;
-  font-size: 30px;
+.fa-youtube {
+    color: #E30019;
+    font-size: 30px;
 }
 
 .footer-social-media {
-  margin-top: 130px;
+    margin-top: 130px;
 }
 
 .contact-picture {
-  border: 1px solid black;
-  width: 300px;
-  height: 300px;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
 }
 
 .contact-links {
-  /*width: 100%;*/
+    /*width: 100%;*/
     background-color: #737977;
     color: #f5f5f5;
     padding: 30px;
 }
 
 .contact-links, .contact {
-  border-radius: 3px 3px 0 0;
-  /*border: 1px solid blue;*/
-
+    border-radius: 3px 3px 0 0;
+    /*border: 1px solid blue;*/
 }
 
 footer {
-  border-radius: 0 0 33px 33px;
-  background-color: #cc3d43;
-  /*padding: 12px;*/
-  margin: 0;
-  text-align: center;
-  border-radius: 0 0 3px 3px;
-  color: #e0dcdc;
-   /*border: 1px solid blue;*/
+    border-radius: 0 0 33px 33px;
+    background-color: #cc3d43;
+    /*padding: 12px;*/
+    margin: 0;
+    text-align: center;
+    border-radius: 0 0 3px 3px;
+    color: #e0dcdc;
+    /*border: 1px solid blue;*/
 }
 
 footer p {
-  padding-bottom: 25px;
+    padding-bottom: 25px;
 }
 
 figcaption {
-  color: red;
+    color: red;
 }
+
+
+/*.about-me {
+  font-family: 'Lato', sans-serif;
+  color: blue;
+
+}*/
+
+/*.main-content-jumbo {
+  font-family: 'Lato', sans-serif;
+  color: blue;
+}*/
 
 /*123*/
 
 
 
-/* color gradient rating bar ------------------------------- */
-
-p.one {
-    background-color: #DB3B33;
-    width: 25px;
-}
-
-p.two {
-    background-color: #CA4635;
-    width: 25px;
-}
-
-p.three {
-    background-color: #B95237;
-    width: 25px;
-}
-
-p.four {
-    background-color: #A95E39;
-    width: 25px;
-}
-
-p.five {
-    background-color: #986A3B;
-    width: 25px;
-}
-
-p.six {
-    background-color: #87753D;
-    width: 25px;
-}
-
-p.seven {
-    background-color: #77813F;
-    width: 25px;
-}
-
-p.eight {
-    background-color: #668D41;
-    width: 25px;
-}
-
-p.nine {
-    background-color: #559943;
-    width: 25px;
-}
-
-p.ten {
-    background-color: #45A546;
-    width: 25px;
-}
 
 
-/* Box Template ------------------------------- */
-
-.divsections {
-    background-color: gray;
-    margin: 10px auto 10px auto;
-    border-radius: 5px;
-    width: 960px;
-    /*also add drop shadow light if time permits*/
-}
-
-#top {
-    height: 350px;
-}
-
-#middle {
-    height: 250px;
-}
-
-#bottom {
-    height: 450px;
-}
 
 
-/* goals template ------------------------------- */
 
-div>ul>li {
-    color: white;
-    width: 165px;
-    padding: 10px;
-    margin: 3px;
-    border-radius: 5px;
-    list-style-type: none;
-}
 
-.menubut1 {
-    background-color: #E9331D;
-}
 
-.menubut2 {
-    background-color: #FFCC33;
-}
 
-.menubut3 {
-    background-color: #FF66FF;
-}
 
-.menubut4 {
-    background-color: #3399FF;
-}
 
-.menubut5 {
-    background-color: #E7FF33;
-}
 
-.goalspage {
-    text-align: center;
-}
+
+
+
+
+
+
 
 
 /*#homemenubutton1, #homemenubutton2 {
