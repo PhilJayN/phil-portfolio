@@ -159,7 +159,15 @@ font-size: 25px;
     box-shadow: 1px 4px 5px 1px rgba(79, 79, 79, 1);
 }
 
+.project-container-jumbo li {
+  color: black;
+}
 
+.project-container-jumbo ul {
+  color: black;
+   border: 1px solid tomato;
+    text-align: center;
+}
 
 
 .fa-github-square {
@@ -234,6 +242,14 @@ footer {
 footer p {
   padding-bottom: 25px;
 }
+
+figcaption {
+  color: red;
+}
+
+/*123*/
+
+
 
 /* color gradient rating bar ------------------------------- */
 
