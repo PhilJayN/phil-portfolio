@@ -98,7 +98,7 @@ header {
 .who-am-i {
     /*text-align:  center;*/
     color: #9C1014;
-    font-size: 35px;
+    font-size: 5px;
     /*line-height: 100%;*/
     font-family: 'Raleway', sans-serif;
 }
@@ -110,7 +110,7 @@ header {
 
 h1 {
   color: #cc171d;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 
@@ -126,24 +126,28 @@ h1 {
     /*border: 1px solid green;*/
     margin: 2px auto;
     /*width: 700px;*/
-     border: 1px solid tomato;
-      
-}
+     /*border: 1px solid tomato;*/
+     text-align: center;
 
+}
 
 /*For all flex items--------------------------------------------------------------*/
 
-.project-calc, .project-gas-calc {
-    /*border: 5px;*/
-    /*width: 300px;
-    height: 200px;
+.project-calc, .project-gas-calc, .project-my-site {
     margin-top: 15px;
-    margin-bottom: 15px;*/
+    /*margin: 2px auto;*/
+
+    /*margin-bottom: 15px;*/
+    /*width: 293px;*/
+    /*height: 417px;
+    margin: 15px;*/
     /*border: 1px solid blue;*/
+    /*width: 330px;*/
     display: inline-block;
-    width: 293px;
-    height: 417px;
-    margin: 15px;
+    height: 480px;
+    /*margin: 15px;*/
+    text-align: center;
+    vertical-align: top;
 }
 
 
