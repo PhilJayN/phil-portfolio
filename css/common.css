@@ -1,8 +1,50 @@
-/* CSS for main page ------------------------------- */
 
+/* CSS for main page ------------------------------- */
+/*------------------------------------------------------------------------------
+
+
+
+
+--------------------------------------------------------------------------------
+text
+--------------------------------------------------------------------------------
+------------------------------------------------------------------------------*/
 
 /*container------------------------------------------------------------- */
 
+
+
+/*------------------------------------------------------------------------------
+TABLE OF CONTENTS
+Typography Guide
+Color Guide
+
+Header and Nav Styles
+Main Content Styles
+
+Footer Styles
+  Font Awesome
+
+------------------------------------------------------------------------------*/
+
+
+
+/*------------------------------------------------------------------------------
+TYPOGRAPHY GUIDE
+
+Headings - Google Fonts Lato
+who-am-i - Google Fonts Raleway
+------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------
+COLOR GUIDE
+
+#Darker red (h1) : #cc171d
+#red (h1) : #cc171d
+#Darker red (anchor links) : #cc171d
+#Dark grayish color; #262830; (unused for the moment)
+
+------------------------------------------------------------------------------*/
 html {
     background-color: #e9e9e9;
 }
@@ -12,23 +54,12 @@ body {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    /*original dark grayish    background-color: #262830;*/
-    /*background-color: #e8e8e8;*/
-    /*border: 1px solid blue;*/
     background-color: #f2f2f2;
 }
 
 .nav-bar {
     background: #db2d34;
-    /*text-align: center;*/
-    /*border: 1px solid blue;*/
     padding: 8px;
-}
-
-nav a {
-    text-decoration: none;
-    padding: 10px;
-    /*border: 1px solid blue;*/
 }
 
 a {
@@ -36,10 +67,11 @@ a {
 }
 
 .menu-links {
-    color: #f5f5f5;
-    /*width: 300px;*/
-    /*border: 1px solid blue;*/
-    font-size: 20px;
+  /*important to have padding or else anchors too close together. People w/ big fingers
+  using tablets will be frustrated*/
+  padding: 10px;
+  color: #f5f5f5;
+  font-size: 20px;
 }
 
 .menu-links:hover {
