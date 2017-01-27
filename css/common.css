@@ -1,30 +1,28 @@
-/*container------------------------------------------------------------- */
-
-
 /*------------------------------------------------------------------------------
 TABLE OF CONTENTS
+-----------------
 Typography Guide
 Color Guide
+CSS:
+  Nav Bar Styles
+  Main Content Styles
+  Misc Border Styles
+  Banner Styles
+  Images Styles
+  Footer, Contact, & Font Awesome Sntyles
 
-Header and Nav Styles
-Main Content Styles
-
-Footer Styles
-  Font Awesome
 ------------------------------------------------------------------------------*/
-
 
 /*------------------------------------------------------------------------------
 TYPOGRAPHY GUIDE
-
+----------------
 who-am-i - Google Fonts Raleway
 Rest of page - Google Fonts Lato
 ------------------------------------------------------------------------------*/
 
-
 /*------------------------------------------------------------------------------
 COLOR GUIDE
-
+-----------
 #Darker red (h1) : #cc171d
 #red (h1) : #cc171d
 #Darker red (anchor links) : #cc171d
@@ -42,7 +40,6 @@ body {
     margin: 0 auto;
     background-color: #f2f2f2;
 }
-
 
 /*Nav bar styles------------------------------------------------------------- */
 .nav-bar {
@@ -151,9 +148,24 @@ header {
     box-shadow: 1px 4px 5px 1px rgba(79, 79, 79, 1);
 }
 
-.project-container-jumbo ul {
-    border: 1px solid tomato;
+figcaption {
+    line-height: 150%;
+    font-size: 16px;
+    color: black;
+}
+
+/*footer, contact, & font awesome styles. html found in footer.html,
+in _includes folder-----------------------------------------------------------*/
+footer {
+    background-color: #cc3d43;
+    margin: 0;
     text-align: center;
+    border-radius: 0 0 3px 3px;
+    color: #e0dcdc;
+}
+
+footer p {
+    padding-bottom: 25px;
 }
 
 .fa-github-square {
@@ -184,78 +196,26 @@ header {
     margin-top: 130px;
 }
 
-.contact-picture {
-    border: 1px solid black;
-    width: 300px;
-    height: 300px;
+/*Disables the ugly text underline due to all a elements in body having underline*/
+.project-container-jumbo a:hover {
+    text-decoration: none;
 }
 
+/*.contact-picture {
+    width: 300px;
+    height: 300px;
+}*/
+
 .contact-links {
-    /*width: 100%;*/
     background-color: #737977;
     color: #f5f5f5;
     padding: 30px;
 }
 
 .contact-links a {
-    /*border: 1px solid tomato;*/
     padding: 20px;
 }
 
 .contact-links, .contact {
     border-radius: 3px 3px 0 0;
-    /*border: 1px solid blue;*/
 }
-
-footer {
-    border-radius: 0 0 33px 33px;
-    background-color: #cc3d43;
-    /*padding: 12px;*/
-    margin: 0;
-    text-align: center;
-    border-radius: 0 0 3px 3px;
-    color: #e0dcdc;
-    /*border: 1px solid blue;*/
-}
-
-footer p {
-    padding-bottom: 25px;
-}
-
-figcaption {
-    line-height: 150%;
-    font-size: 16px;
-    color: black;
-}
-
-
-/*Disables the ugly text underline due to all a elements in body having underline*/
-
-.project-container-jumbo a:hover {
-    text-decoration: none;
-}
-
-
-/** {
-  font-family: 'Lato', sans-serif;
-
-}*/
-
-
-/*123*/
-
-
-/*#homemenubutton1, #homemenubutton2 {
-    border-radius: 5px;
-    color: #FFFFFF;
-    padding: 30px;
-    text-align: center;
-}
-
-#homemenubutton1 {
-    background-color: #D75D61;
-}
-
-#homemenubutton2 {
-    background-color: #E5D347;
-}*/
