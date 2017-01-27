@@ -9,8 +9,7 @@ CSS:
   Misc Border Styles
   Banner Styles
   Images Styles
-  Footer, Contact, & Font Awesome Sntyles
-
+  Footer, Contact, & Font Awesome Styles
 ------------------------------------------------------------------------------*/
 
 /*------------------------------------------------------------------------------
@@ -200,11 +199,6 @@ footer p {
 .project-container-jumbo a:hover {
     text-decoration: none;
 }
-
-/*.contact-picture {
-    width: 300px;
-    height: 300px;
-}*/
 
 .contact-links {
     background-color: #737977;
