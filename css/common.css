@@ -53,9 +53,9 @@ a {
 .menu-links {
     /*important to have padding or else anchors too close together. People w/ big fingers
   using tablets will be frustrated*/
-    padding: 10px;
+    padding: 8px;
     color: #f5f5f5;
-    font-size: 15px;
+    font-size: 23px;
 }
 
 .menu-links:hover {
@@ -64,12 +64,11 @@ a {
 
 /*main content styles---------------------------------------------------------*/
 .main-content-jumbo {
-    margin-top: 9px;
-    margin-bottom: 9px;
+    margin: 9px auto;
     padding: 40px;
     border-radius: 3px;
-    font-size: 18px;
-    line-height: 200%;
+    font-size: 22px;
+    line-height: 1.4;
 }
 
 .main-content-jumbo a {
@@ -100,8 +99,8 @@ h1 {
 }
 
 .project-container-jumbo {
+  /*important! Allows each project container to be aligned in middle!*/
     text-align: center;
-    /*important! Allows each project container to be aligned in middle!*/
 }
 
 .project-calc, .project-gas-calc, .project-my-site {
@@ -109,6 +108,32 @@ h1 {
     display: inline-block;
     height: 480px;
     vertical-align: top;
+}
+
+/*individual project writeup styles------------------------------------------------------------ */
+.project-container {
+  margin: auto;
+  width: 75%;
+  margin: auto;
+}
+
+/*view on codepen and github link area*/
+.view-on {
+  text-align: center;
+}
+
+.view-on p {
+  margin: auto;
+}
+
+.writeup {
+   /*border: 1px solid tomato;*/
+   width: 65%;
+   margin: auto;
+}
+
+.writeup h3 {
+  text-align: center;
 }
 
 /*misc border styles------------------------------------------------------------ */
