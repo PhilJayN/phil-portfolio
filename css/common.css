@@ -139,16 +139,27 @@ h1 {
 
 .writeup {
    /*border: 1px solid tomato;*/
-   width: 65%;
+   width: 70%;
    margin: auto;
 }
 
 .writeup h3 {
   text-align: center;
+  /*color: blue;*/
+   margin: 0px;
+   padding: 0;
+
 }
 
 .writeup li {
   text-align: left;
+  /*border: 1px solid tomato;*/
+}
+
+.writeup p {
+  margin: 0;
+  padding: 0;
+
 }
 
 
