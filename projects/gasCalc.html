@@ -39,3 +39,82 @@ layout: default
 
     </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<article>
+    <form action="index.html" method="post" id="mainForm">
+        <ul class="formFields">
+            <h4>Gas Station Price</h4>
+            <li>
+                <label for="cashPrice">Cash</label>
+                <!--The dollar sign takes up more pixel space, so need to use &nbsp; for whitespace-->
+                <span>&nbsp;&nbsp;$</span>
+                <input type="number" step="0.01" min="0.01" id="cashPrice" value="2.65" maxlength="3" required/>
+            </li>
+
+            <li>
+                <label for="creditPrice">Credit</label>
+                <span>&nbsp;&nbsp;$</span>
+                <input type="number" step="0.01" min=".3" id="creditPrice" value="2.75" />
+            </li>
+
+            <h4 class="additInfo">Addditional Info</h4>
+
+            <li>
+                <label for="bankDiscount">Cashback</label>
+                <span>%</span>
+                <input type="number" step=".01" min="0.01" id="bankDiscount" value="3" />
+            </li>
+
+            <li>
+                <label for="gallonsNeeded"> Gallons</label>
+                <span>&nbsp;&nbsp;&nbsp;</span>
+                <input type="number" step="1" min="0.01" id="gallonsNeeded" value="13.2" />
+            </li>
+
+        </ul>
+        <p id="errorMsgEl"></p>
+    </form>
+
+    <div class="calculationResultContainer">
+        <h4>Total</h4>
+        <table>
+            <tr>
+                <th>Payment</th>
+                <th>$</th>
+            </tr>
+            <tr class="cashRowTitle">
+                <td>Cash</td>
+                <td id="cashTableData"></td>
+            </tr>
+            <tr class="creditRowTitle">
+                <td>Credit</td>
+                <td id="creditTableData"></td>
+            </tr>
+            <tr class="discountInc">
+                <td>Credit with Discount</td>
+                <td id="creditDiscTableData"></td>
+            </tr>
+        </table>
+        <h4>Result</h4>
+    </div>
+</article>
+
+<p class="footerContent">
+  Use the up and down arrows on your keyboard to change value quickly while input field is selected!
+</p>
+
+
+
+<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+<script src="../js/gasCalc.js"></script>
