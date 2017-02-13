@@ -37,7 +37,7 @@ article {
     margin: 3px 3px;
     width: 280px;
     /*prevent container from doing the funky chicken dance (getting bigger) when calculation shows up*/
-    height: 540px;
+    height: 520px;
     background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 0 4px 9px -3px rgba(0, 0, 0, 0.67);
