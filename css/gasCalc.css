@@ -28,16 +28,16 @@ body {
 }
 
 article {
-    width: 530px;
+    width: 630px;
     margin: auto;
 }
 
 /*Main input field container--------------------------------------------------*/
 #mainForm, .calculationResultContainer {
     margin: 3px 3px;
-    width: 250px;
+    width: 280px;
     /*prevent container from doing the funky chicken dance (getting bigger) when calculation shows up*/
-    height: 420px;
+    height: 540px;
     background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 0 4px 9px -3px rgba(0, 0, 0, 0.67);

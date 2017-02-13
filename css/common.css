@@ -154,6 +154,11 @@ h1 {
   text-align: center;
 }
 
+.writeup li {
+  text-align: left;
+}
+
+
 /*misc border styles------------------------------------------------------------ */
 header, .main-content-jumbo, .contact, footer {
     -webkit-box-shadow: 0 0 6px 0 rgba(168, 168, 168, 1);
