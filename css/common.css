@@ -69,6 +69,7 @@ a {
     border-radius: 3px;
     font-size: 22px;
     line-height: 1.4;
+
 }
 
 .main-content-jumbo a {
@@ -83,32 +84,24 @@ a {
 .welcome {
   margin: auto;
   /*border: 1px solid tomato;*/
-text-align: center;
     width: 66%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
+.hello {
+  color: #cc171d;
+  font-size: 27px;
+}
 .who-am-i {
-   /*border: 1px solid blue;*/
-   text-align: center;
-
+ text-align: center;
   margin: auto;
   width: 66%;
     color: #9C1014;
-    font-size: 23px;
+    font-size: 33px;
     font-family: 'Raleway', sans-serif;
     margin-bottom: 60px;
     margin-top: 30px;
-}
-
-.about-me {
-  margin: auto;
-  /*border: 1px solid tomato;*/
-text-align: center;
-    width: 66%;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 h1 {
