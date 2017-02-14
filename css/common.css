@@ -68,7 +68,7 @@ a {
     padding: 40px;
     border-radius: 3px;
     font-size: 22px;
-    line-height: 1.4;
+    line-height: 1.682;
 
 }
 
@@ -107,6 +107,7 @@ a {
 h1 {
     color: #cc171d;
     font-size: 27px;
+    text-align: center;
 }
 
 .project-container-jumbo {
@@ -123,9 +124,10 @@ h1 {
 
 /*individual project writeup styles------------------------------------------------------------ */
 .project-container {
-  margin: auto;
-  width: 75%;
-  margin: auto;
+  /*width: 75%;*/
+  /*border: 1px solid tomato;*/
+  margin: 50px auto;
+  width: 980px;
 }
 
 /*view on codepen and github link area*/
@@ -134,11 +136,11 @@ h1 {
 }
 
 .view-on p {
-  margin: auto;
+  /*border: 1px solid tomato;*/
+  margin: 20px auto;
 }
 
 .writeup {
-   /*border: 1px solid tomato;*/
    width: 70%;
    margin: auto;
 }
