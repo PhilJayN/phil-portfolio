@@ -68,12 +68,17 @@ a {
 
 /*main content styles---------------------------------------------------------*/
 
+.main-container {
+  border: 9px solid blue;
+}
+
 .main-content {
   margin: 9px auto;
   padding: 40px;
   border-radius: 3px;
   font-size: 22px;
   line-height: 1.682;
+  width: 70%;
 }
 
 .main-content a {
@@ -84,19 +89,19 @@ a {
   text-decoration: underline;
   color: #cc171d;
 }
+/*border: 1px solid tomato;*/
 
-.welcome {
+/*.welcome {
   margin: auto;
-  /*border: 1px solid tomato;*/
   width: 66%;
   margin-top: 10px;
   margin-bottom: 10px;
-}
-
+}*/
 
 .hello {
   color: #cc171d;
   font-size: 27px;
+  text-align: left;
 }
 
 .who-am-i {
@@ -123,13 +128,13 @@ a {
 }
 
 
-/*individual project writeup styles-------------------------------------------*/
+/*project summary styles-------------------------------------------*/
 
 .project-container {
   /*width: 75%;*/
-  /*border: 1px solid tomato;*/
+  border: 1px solid tomato;
   margin: 50px auto;
-  width: 980px;
+  /*width: 980px;.*/
 }
 
 
@@ -137,16 +142,30 @@ a {
 
 .view-on {
   text-align: center;
-}
-
-.view-on p {
-  /*border: 1px solid tomato;*/
   margin: 20px auto;
 }
 
-.writeup {
+.project-summary {
+
+  border: 1px solid red;
   width: 70%;
   margin: auto;
+}
+
+/*ul {
+  border: 1px solid green;
+  list-style-position: inside;
+}*/
+
+.project-summary p{
+border : 1px solid yellow;
+}
+
+
+.lessons-list {
+text-align: left;
+border: 1px solid blue;
+
 }
 
 h1 {
@@ -162,14 +181,11 @@ h3 {
   padding: 0;
 }
 
-.writeup li {
-  text-align: left;
-}
 
 
 /*misc border styles--------------------------------------------------------- */
 
-header, .main-content, .contact, footer {
+header, .main-container, .contact, footer {
   -webkit-box-shadow: 0 0 6px 0 rgba(168, 168, 168, 1);
   -moz-box-shadow: 0 0 6px 0 rgba(168, 168, 168, 1);
   box-shadow: 0 0 6px 0 rgba(168, 168, 168, 1);
