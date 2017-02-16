@@ -73,6 +73,7 @@ a {
 }
 
 .main-content {
+  border: 2px solid red;
   margin: 9px auto;
   padding: 40px;
   border-radius: 3px;
@@ -89,14 +90,6 @@ a {
   text-decoration: underline;
   color: #cc171d;
 }
-/*border: 1px solid tomato;*/
-
-/*.welcome {
-  margin: auto;
-  width: 66%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}*/
 
 .hello {
   color: #cc171d;
@@ -116,7 +109,6 @@ a {
 }
 
 .project-container-jumbo {
-  /*important! Allows each project container to be aligned in middle!*/
   text-align: center;
 }
 
@@ -127,18 +119,9 @@ a {
   vertical-align: top;
 }
 
-
 /*project summary styles-------------------------------------------*/
 
-.project-container {
-  /*width: 75%;*/
-  border: 1px solid tomato;
-  margin: 50px auto;
-  /*width: 980px;.*/
-}
-
-
-/*view on codepen and github link area*/
+/*view on github link area*/
 
 .view-on {
   text-align: center;
@@ -146,26 +129,14 @@ a {
 }
 
 .project-summary {
-
   border: 1px solid red;
-  width: 70%;
+  width: 95%;
   margin: auto;
 }
 
-/*ul {
-  border: 1px solid green;
-  list-style-position: inside;
-}*/
-
-.project-summary p{
-border : 1px solid yellow;
-}
-
-
 .lessons-list {
-text-align: left;
-border: 1px solid blue;
-
+  list-style-position: inside;
+  text-align: left;
 }
 
 h1 {
@@ -176,6 +147,8 @@ h1 {
 }
 
 h3 {
+  border: 2px solid blue;
+  color: #cc171d;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -192,8 +165,8 @@ header, .main-container, .contact, footer {
 }
 
 
-/*important to have border radius for header, due to image having border radius. Or else
-header will show a pointy edge under image with border radius*/
+/*important to have border radius for header, due to image having border radius,
+or else header will show a pointy edge under image with border radius*/
 
 header {
   border-radius: 0 0 10px 10px;
@@ -208,7 +181,6 @@ header {
   height: 220px;
   border-radius: 0 0 5px 5px;
 }
-
 
 /*images styles-------------------------------------------------------------*/
 
@@ -237,15 +209,18 @@ figcaption {
 in _includes folder-----------------------------------------------------------*/
 
 footer {
-  background-color: #cc3d43;
   margin: 0;
   text-align: center;
   border-radius: 0 0 3px 3px;
   color: #e0dcdc;
 }
 
-footer p {
-  padding-bottom: 25px;
+
+.created-with-pizza {
+  background-color: #cc3d43;
+  margin: 0;
+  padding: 0;
+
 }
 
 .fa-github-square {
@@ -282,6 +257,11 @@ footer p {
 .project-container-jumbo a:hover {
   text-decoration: none;
 }
+
+/*.contact {
+  border: 1px solid blue;
+  margin: 0;
+}*/
 
 .contact-links {
   background-color: #737977;
