@@ -69,7 +69,7 @@ a {
 /*main content styles---------------------------------------------------------*/
 
 .main-container {
-  border: 9px solid blue;
+  border: 3px solid blue;
 }
 
 .main-content {
@@ -112,12 +112,14 @@ a {
   text-align: center;
 }
 
-.project-calc, .project-gas-calc, .project-my-site {
+.project-calc, .project-gas-calc, .project-my-site, .placeholder {
   margin-top: 15px;
   display: inline-block;
   height: 480px;
   vertical-align: top;
+   border: 1px solid blue;
 }
+
 
 /*project summary styles-------------------------------------------*/
 
@@ -170,6 +172,8 @@ or else header will show a pointy edge under image with border radius*/
 
 header {
   border-radius: 0 0 10px 10px;
+   border: 1px solid yellow;
+
 }
 
 
