@@ -28,16 +28,12 @@ COLOR GUIDE
 #red (h1) : #cc171d
 #Darker red (anchor links) : #cc171d
 #Dark grayish color; #262830; (unused for the moment)
-------------------------------------------------------------------------------*/
+#  background-color html: #e9e9e9;
 
-html {
-  background-color: #e9e9e9;
-}
+------------------------------------------------------------------------------*/
 
 body {
   font-family: 'Lato', sans-serif;
-  width: 100%;
-  max-width: 1200px;
   margin: 0 auto;
   background-color: #f2f2f2;
 }
@@ -68,19 +64,30 @@ a {
 
 /*main content styles---------------------------------------------------------*/
 
-.main-container {
-  border: 3px solid blue;
-}
+/*.main-container {
+
+}*/
 
 .main-content {
-  border: 2px solid red;
+  /*border: 2px solid red;*/
   margin: 9px auto;
   padding: 40px;
   border-radius: 3px;
-  font-size: 22px;
   line-height: 1.682;
-  width: 70%;
+  width: 60%;
+  min-width: 700px;
+  /*Prevent user from big screen making text line length too long*/
+  max-width: 1100px;
+
 }
+
+
+
+article {
+width: 75%;
+margin: auto;
+}
+
 
 .main-content a {
   color: #cc171d;
@@ -100,7 +107,6 @@ a {
 .who-am-i {
   text-align: center;
   margin: auto;
-  width: 66%;
   color: #9C1014;
   font-size: 33px;
   font-family: 'Raleway', sans-serif;
@@ -114,10 +120,10 @@ a {
 
 .project-calc, .project-gas-calc, .project-my-site, .placeholder {
   margin-top: 15px;
+  /*Allows each project thumbnail to sit next to each other*/
   display: inline-block;
   height: 480px;
   vertical-align: top;
-   border: 1px solid blue;
 }
 
 
@@ -131,25 +137,26 @@ a {
 }
 
 .project-summary {
-  border: 1px solid red;
-  width: 95%;
+  /*border: 4px solid green;*/
+  width: 75%;
   margin: auto;
 }
 
 .lessons-list {
-  list-style-position: inside;
-  text-align: left;
+
 }
+
+/*ul {
+  list-style-position: inside;
+}*/
 
 h1 {
   color: #cc171d;
   font-size: 27px;
   text-align: center;
-  border: 2px solid blue;
 }
 
 h3 {
-  border: 2px solid blue;
   color: #cc171d;
   text-align: center;
   margin: 0;
@@ -172,8 +179,6 @@ or else header will show a pointy edge under image with border radius*/
 
 header {
   border-radius: 0 0 10px 10px;
-   border: 1px solid yellow;
-
 }
 
 
@@ -279,4 +284,17 @@ footer {
 
 .contact-links, .contact {
   border-radius: 3px 3px 0 0;
+}
+
+
+/*
+@media screen and (max-width: 768px)
+{.main-content {
+    font-size: 23px;
+    line-height: 1.6842105263;
+}
+}*/
+
+.msg-update {
+   margin-bottom: 0;
 }
