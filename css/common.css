@@ -228,9 +228,8 @@ footer {
 
 .created-with-pizza {
   background-color: #cc3d43;
-  margin: 0;
-  padding: 0;
-
+  padding: 6px;
+  font-size: 14px;
 }
 
 .fa-github-square {
