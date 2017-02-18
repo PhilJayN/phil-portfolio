@@ -6,7 +6,7 @@ var main = function() {
     var cashOrCreditStr;
 
     var msg = {
-        $calcResultEl: $(".calculationResultContainer"),
+        $calcResultEl: $(".calc-result"),
         $finalMsgEl: $("<p>"),
         currencyUnitStr: undefined,
         cents: undefined,
@@ -84,7 +84,7 @@ var main = function() {
     var $cashEl = $("#cashTableData");
     var $creditEl = $("#creditTableData");
     var $creditWDiscEl = $("#creditDiscTableData");
-    var $inputFieldsEl = $(".formFields li input");
+    var $inputFieldsEl = $(".form-fields li input");
     $inputFieldsEl.toArray().forEach(function(inputElement) {
         $(inputElement).on("input", function() {
             msg.clear();
