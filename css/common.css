@@ -70,7 +70,7 @@ or else app font overflows due to increased line-height from page-wrapper */
   line-height: 1.2;
 }
 
-.page-wrapper {
+.content-wrapper {
   /*border: 2px solid red;*/
   margin: 9px auto;
   padding: 40px;
@@ -90,11 +90,11 @@ margin: auto;
 }
 
 
-.page-wrapper a {
+.content-wrapper a {
   color: #cc171d;
 }
 
-.page-wrapper a:hover {
+.content-wrapper a:hover {
   text-decoration: underline;
   color: #cc171d;
 }
