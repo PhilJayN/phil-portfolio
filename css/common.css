@@ -32,13 +32,22 @@ COLOR GUIDE
 
 ------------------------------------------------------------------------------*/
 
+
+
+
 html {
 font-size: 16px;
+box-sizing: border-box;
 }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 
 body {
   font-family: 'Lato', sans-serif;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   background-color: #f2f2f2;
 }
 
@@ -68,28 +77,26 @@ a {
 /*this rule will override the page-wrapper line-height,
 or else app font overflows due to increased line-height from page-wrapper */
 .app-font-wrapper {
-  line-height: 1.2;
+  /*line-height: 1.2;*/
 }
 
 .content-wrapper {
   /*border: 2px solid red;*/
-  margin: 9px auto;
-  padding: 40px;
+  /*margin: 9px auto;*/
+  /*padding: 40px;*/
   border-radius: 3px;
-  line-height: 1.682;
-  width: 60%;
-  min-width: 700px;
+  /*line-height: 1.682;*/
+  /*width: 60%;*/
+  /*min-width: 700px;*/
   /*Prevent user from big screen making text line length too long*/
-  max-width: 1100px;
+  /*max-width: 1100px;*/
 
 }
-
 
 .app-area {
-width: 75%;
-margin: auto;
+/*width: 75%;
+margin: auto;*/
 }
-
 
 .content-wrapper a {
   color: #cc171d;
@@ -102,30 +109,30 @@ margin: auto;
 
 .hello {
   color: #cc171d;
-  font-size: 27px;
-  text-align: left;
+  /*font-size: 27px;*/
+  /*text-align: left;*/
 }
 
 .who-am-i {
-  text-align: center;
-  margin: auto;
+  /*text-align: center;
+  margin: auto;*/
   color: #9C1014;
-  font-size: 33px;
+  /*font-size: 33px;*/
   font-family: 'Raleway', sans-serif;
-  margin-bottom: 60px;
-  margin-top: 30px;
+  /*margin-bottom: 60px;
+  margin-top: 30px;*/
 }
 
 .projects-container {
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .project-calc, .project-gas-calc, .project-my-site, .placeholder {
-  margin-top: 15px;
+  /*margin-top: 15px;*/
   /*Allows each project thumbnail to sit next to each other*/
-  display: inline-block;
-  height: 480px;
-  vertical-align: top;
+  /*display: inline-block;*/
+  /*height: 480px;*/
+  /*vertical-align: top;*/
 }
 
 
@@ -134,38 +141,32 @@ margin: auto;
 /*view on github link area*/
 
 .view-on {
-  text-align: center;
-  margin: 20px auto;
+  /*text-align: center;
+  margin: 20px auto;*/
 }
 
 .app-summary {
   /*border: 4px solid green;*/
-  width: 75%;
-  margin: auto;
+  /*width: 75%;*/
+  /*margin: auto;*/
 }
 
 .lessons-list {
 
 }
 
-/*ul {
-  list-style-position: inside;
-}*/
-
 h1 {
   color: #cc171d;
-  font-size: 27px;
-  text-align: center;
+  /*font-size: 27px;
+  text-align: center;*/
 }
 
 h3 {
   color: #cc171d;
-  text-align: center;
+  /*text-align: center;
   margin: 0;
-  padding: 0;
+  padding: 0;*/
 }
-
-
 
 /*misc border styles--------------------------------------------------------- */
 
@@ -180,7 +181,7 @@ header, .contact, footer {
 or else header will show a pointy edge under image with border radius*/
 
 header {
-  border-radius: 0 0 10px 10px;
+  /*border-radius: 0 0 10px 10px;*/
 }
 
 
@@ -189,20 +190,21 @@ header {
 .primary-banner {
   background: url("../images/square.jpg") no-repeat;
   background-size: cover;
-  height: 220px;
+  /*height: 220px;*/
   border-radius: 0 0 5px 5px;
 }
 
 /*images styles-------------------------------------------------------------*/
 
 .image {
-  width: 293px;
-  height: 317px;
+  /*width: 293px;
+  height: 317px;*/
 }
 
 .projects-container img {
-  max-width: 100%;
-  max-height: 100%;
+  /*width: 100%;*/
+  /*max-width: 100%;
+  max-height: 100%;*/
   border-radius: 5px;
   -webkit-box-shadow: 1px 4px 5px 1px rgba(79, 79, 79, 1);
   -moz-box-shadow: 1px 4px 5px 1px rgba(79, 79, 79, 1);
@@ -210,9 +212,8 @@ header {
 }
 
 figcaption {
-  /*line-height: 150%;*/
-  font-size: 16px;
-  color: black;
+  /*font-size: 16px;*/
+  /*color: black;*/
 }
 
 
@@ -220,18 +221,18 @@ figcaption {
 in _includes folder-----------------------------------------------------------*/
 
 footer {
-  margin: 0;
-  text-align: center;
+  /*margin: 0;
+  text-align: center;*/
   border-radius: 0 0 3px 3px;
   color: #e0dcdc;
 }
 
-
+/*
 .created-with-pizza {
   background-color: #cc3d43;
   padding: 6px;
   font-size: 14px;
-}
+}*/
 
 .fa-github-square {
   color: #333333;
@@ -268,15 +269,10 @@ footer {
   text-decoration: none;
 }
 
-/*.contact {
-  border: 1px solid blue;
-  margin: 0;
-}*/
-
 .contact-links {
   background-color: #737977;
   color: #f5f5f5;
-  padding: 30px;
+  /*padding: 30px;*/
 }
 
 .contact-links a {
@@ -288,23 +284,46 @@ footer {
 }
 
 
-
-  /*@media screen and (max-width: 751px)
-  {.page-wrapper {
-      font-size: 17px;
-      line-height: 1.45px;
-      margin: auto;
-  }
-  }*/
-
-
-
 .msg-update {
-   margin-bottom: 0;
+   /*margin-bottom: 0;*/
 }
 
 
 .about-me {
-    width: 70%;
-    margin: auto;
+    /*width: 70%;
+    margin: auto;*/
 }
+
+.row {
+   /*border: 4px solid blue;*/
+}
+
+.column-4 {
+   /*border: 2px solid green;*/
+  width: 33.3333%;
+}
+
+.column-4 a {
+   border: 2px solid red;
+   margin: auto;
+}
+
+
+.column-6 {
+   /*border: 2px solid green;*/
+  /*width: 33.334343%;*/
+  /*width: 50%;*/
+}
+
+footer {
+  clear: both;
+}
+
+/*TABLET*/
+@media only screen and (min-width: 768px) {
+    .column-4 {
+      float: left;
+
+  }
+
+  } /*End of tablet*/
