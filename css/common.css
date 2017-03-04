@@ -296,17 +296,21 @@ footer {
 
 .row {
    /*border: 4px solid blue;*/
+   /*width: 80%;*/
+   text-align: center;
+
 }
 
 .column-4 {
-   /*border: 2px solid green;*/
-  width: 33.3333%;
+  display: inline-block;
+   border: 2px solid green;
+   /*padding: 2em;*/
+  /*width: 33.3333%;*/
 }
 
-.column-4 a {
+/*.column-4 a {
    border: 2px solid red;
-   margin: auto;
-}
+}*/
 
 
 .column-6 {
@@ -316,13 +320,12 @@ footer {
 }
 
 footer {
-  clear: both;
+  /*clear: both;*/
 }
 
 /*TABLET*/
 @media only screen and (min-width: 768px) {
     .column-4 {
-      float: left;
 
   }
 
