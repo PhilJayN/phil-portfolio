@@ -32,17 +32,20 @@ COLOR GUIDE
 
 ------------------------------------------------------------------------------*/
 
+html {
+font-size: 16px;
+}
+
 body {
   font-family: 'Lato', sans-serif;
   margin: 0 auto;
   background-color: #f2f2f2;
 }
 
-
 /*Nav bar styles------------------------------------------------------------- */
 .primary-nav {
   background: #db2d34;
-  padding: 8px;
+  padding: .50em;
 }
 
 a {
@@ -50,11 +53,9 @@ a {
 }
 
 .menu-links {
-  /*important to have padding or else anchors too close together. People w/
-  big fingers using tablets will be frustrated*/
-  padding: 8px;
+  font-size: 1.1em;
+  padding: .5em;
   color: #f5f5f5;
-  font-size: 23px;
 }
 
 .menu-links:hover {
