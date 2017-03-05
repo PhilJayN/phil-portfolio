@@ -33,29 +33,16 @@ COLOR GUIDE
 ------------------------------------------------------------------------------*/
 
 
-
-
-
-
-
 html {
 font-size: 16px;
- /*border: 2px solid blue;*/
-
 }
 
 * {
   box-sizing: border-box;
 }
 
-/**, *:before, *:after {
-  box-sizing: inherit;
-}*/
-
-
 body {
   font-family: 'Lato', sans-serif;
-  /*margin: 0 auto;*/
   background-color: #f2f2f2;
 }
 
@@ -295,22 +282,22 @@ footer {
 }
 
 .row {
-   border: 2px solid blue;
-   width: 100%;
-   margin: 0 auto;
+  width: 70%;
+  margin: 0 auto;
+   border: 1px solid red;
+
 }
 
 .column-4 {
+  width: 33.33333%;
   float: left;
-  width: 100%;
-  margin: 0 auto;
-   border: 1px solid blue;
+/*   padding: .25em; */
 }
 
-img {
-  /*margin: auto;*/
-  width: 50%;
+.column-4 img {
+  width: 100%;
 }
+
 
 .column-6 {
    /*border: 2px solid green;*/
