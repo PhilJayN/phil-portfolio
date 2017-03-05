@@ -34,7 +34,7 @@ COLOR GUIDE
 
 
 html {
-font-size: 16px;
+  font-size: 16px;
 }
 
 * {
@@ -198,9 +198,8 @@ header {
 
 
 figcaption {
-  /*font-size: 1.18em;*/
+  font-size: 1.05em;
   width: 100%;
-   border: 1px solid blue;
 }
 
 
@@ -208,10 +207,9 @@ figcaption {
 in _includes folder-----------------------------------------------------------*/
 
 footer {
-  /*margin: 0;
-  text-align: center;*/
   border-radius: 0 0 3px 3px;
   color: #e0dcdc;
+  clear: both;
 }
 
 /*
@@ -282,38 +280,45 @@ footer {
 }
 
 .row {
-  width: 70%;
-  margin: 0 auto;
+  width: 100%;
+  /*margin: 0 auto;*/
    border: 1px solid red;
-
 }
 
 .column-4 {
-  width: 33.33333%;
-  float: left;
-/*   padding: .25em; */
+  width: 100%;
+   border: 1px solid blue;
+   float: left;
+   padding: 0;
+   margin-bottom: 1em;
+}
+
+/*saran wrap because the div tightens up everything*/
+.saran-wrap {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.column-4 figure {
+  margin: 0;   /*This prevents figure from having huge uneeded margin*/
 }
 
 .column-4 img {
   width: 100%;
 }
 
-
-.column-6 {
-   /*border: 2px solid green;*/
-  /*width: 33.334343%;*/
-  /*width: 50%;*/
-}
-
-footer {
-  clear: both;
-}
-
 /*TABLET*/
 @media only screen and (min-width: 768px) {
+  .row {
+    width: 90%;
+    margin: 0 auto;
+     border: 1px solid red;
+  }
+
   .column-4 {
-     /*border: 2px solid red;*/
     width: 50%;
+    float: left;
+  /*   padding: .25em; */
   }
 
   } /*End of tablet*/
@@ -331,18 +336,16 @@ footer {
 
 /*DESKTOP*/
 @media only screen and (min-width: 1024px) {
+  .row {
+    width: 80%;
+    margin: 0 auto;
+     border: 1px solid red;
+  }
+
   .column-4 {
-    width: 33.33334%;
+    width: 33.333333%;
+    float: left;
   }
 
 
-
-  } /*End of tablet*/
-
-
-.one, .two {
-  display: inline-block;
-  width: 50%;
-   border: 1px solid blue;
-
-}
+  } /*End of desktop*/
