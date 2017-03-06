@@ -170,7 +170,7 @@ body {
 @media only screen and (max-width: 568px) {
   #mainForm, .calc-result {
     float: none;
-    /*margin: 0 auto;*/
+    margin: 0 auto;
 }
 
   #mainForm, .calc-result {
@@ -181,6 +181,12 @@ body {
       border-radius: 5px;
       box-shadow: 0 4px 9px -3px rgba(0, 0, 0, 0.67);
       text-align: center;
+  }
+
+  .gas-container {
+     /*border: 1px solid blue;*/
+      width: 240px;
+      margin: 0 auto;
   }
 
 
