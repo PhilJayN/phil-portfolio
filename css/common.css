@@ -44,7 +44,6 @@ html {
 body {
   font-family: 'Lato', sans-serif;
   background-color: #f2f2f2;
-   border: 1px solid blue;
 }
 
 /*Nav bar styles------------------------------------------------------------- */
@@ -134,7 +133,8 @@ or else app font overflows due to increased line-height from page-wrapper */
 
 .view-on {
   text-align: center;
-  margin: 20px auto;
+   /*border: 1px solid blue;*/
+  /*margin: 20px auto;*/
 }
 
 /*.app-summary {

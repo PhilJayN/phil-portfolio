@@ -28,7 +28,7 @@ body {
 }
 
 .gas-container {
-    width: 555px;
+     width: 555px;
     margin: auto;
 }
 
@@ -168,14 +168,13 @@ body {
 @media only screen and (max-width: 568px) {
   #mainForm, .calc-result {
     float: none;
-     border: 1px solid blue;
+     /*border: 1px solid blue;*/
+     /*display: block;
+     text-align: center;*/
 
 }
-
   .gas-container {
-   border: 1px solid blue;
-    width: 95%;
-
+    width: 58%;
   }
 
   }
