@@ -217,12 +217,12 @@ footer {
   clear: both;
 }
 
-/*
+
 .created-with-pizza {
   background-color: #cc3d43;
-  padding: 6px;
+  padding: .5em;
   font-size: 14px;
-}*/
+}
 
 .fa-github-square {
   color: #333333;
@@ -262,7 +262,7 @@ footer {
 .contact-links {
   background-color: #737977;
   color: #f5f5f5;
-  /*padding: 30px;*/
+  padding: .5em;
 }
 
 .contact-links a {
@@ -327,8 +327,13 @@ footer {
   .column-4 {
     width: 50%;
     float: left;
-  /*   padding: .25em; */
   }
+
+  .column-4 figure {
+    margin: 0 1.5em;
+     /*border: 1px solid blue;*/
+  }
+
 
   } /*End of tablet*/
 
