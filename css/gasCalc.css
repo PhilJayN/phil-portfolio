@@ -28,7 +28,7 @@ body {
 }
 
 .gas-container {
-     width: 555px;
+    width: 555px;
     margin: auto;
 }
 
@@ -154,7 +154,8 @@ body {
 .footerContent {
     clear: both;
     margin: auto;
-    width: 490px;
+    /*width: 490px;*/
+    width: 60%;
     color: #444;
     font-size: 16px;
     padding-top: 23px;
@@ -168,13 +169,10 @@ body {
 @media only screen and (max-width: 568px) {
   #mainForm, .calc-result {
     float: none;
-     /*border: 1px solid blue;*/
-     /*display: block;
-     text-align: center;*/
-
 }
   .gas-container {
     width: 58%;
+     border: 1px solid blue;
   }
 
   }
