@@ -134,9 +134,8 @@ or else app font overflows due to increased line-height from page-wrapper */
   text-align: center;
 }
 
-h1 {
+h2 {
   color: #cc171d;
-  /*font-size: 27px;
   text-align: center;*/
 }
 
@@ -202,7 +201,7 @@ footer {
 
 .created-with-pizza {
   background-color: #cc3d43;
-  padding: .5em;
+  padding: 1em;
   font-size: 14px;
 }
 
@@ -230,11 +229,6 @@ footer {
   color: #E30019;
 }
 
-.footer-social-media {
-  /*margin-top: 130px;*/
-}
-
-
 /*Disables the ugly text underline due to all a elements in body having underline*/
 
 .projects-container a:hover {
@@ -244,7 +238,7 @@ footer {
 .contact-links {
   background-color: #737977;
   color: #f5f5f5;
-  padding: .5em;
+  padding: 1em;
 }
 
 .contact-links a {
@@ -262,8 +256,8 @@ footer {
 
 
 .about-me {
-    /*width: 70%;
-    margin: auto;*/
+    width: 95%;
+    margin: 0 auto;
 }
 
 .row {
@@ -342,5 +336,11 @@ footer {
      width: 65%;
      margin: 0 auto;
   }
+
+  .about-me {
+      width: 65%;
+      margin: 0 auto;
+  }
+
 
   } /*End of desktop*/
