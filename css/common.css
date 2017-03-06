@@ -43,14 +43,13 @@ html {
 
 body {
   font-family: 'Lato', sans-serif;
-  background-color: #f2f2f2;
+  background-color: #f2f2f2;    
 }
 
 /*Nav bar styles------------------------------------------------------------- */
 .primary-nav {
   background: #db2d34;
   padding: .50em;
-  /*margin-bottom: 1em;*/
 }
 
 .primary-banner img {
@@ -83,7 +82,7 @@ or else app font overflows due to increased line-height from page-wrapper */
 }
 
 .content-wrapper {
-  /*border: 2px solid red;*/
+  border: 2px solid red;
   width: 95%;
   margin: 0 auto;
   border-radius: 3px;
@@ -136,13 +135,9 @@ or else app font overflows due to increased line-height from page-wrapper */
   margin: 20px auto;
 }
 
-.app-summary {
+/*.app-summary {
   margin: auto;
-}
-
-.lessons-list {
-
-}
+}*/
 
 h1 {
   color: #cc171d;
@@ -306,7 +301,7 @@ footer {
   margin-bottom: .5em;
 }
 
-/*TABLET*/
+/*TABLET rule kicks in when @ 768 and above*/
 @media only screen and (min-width: 768px) {
   .primary-banner {
    margin-bottom: 5em;
