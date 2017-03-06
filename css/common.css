@@ -50,6 +50,13 @@ body {
 .primary-nav {
   background: #db2d34;
   padding: .50em;
+  /*margin-bottom: 1em;*/
+}
+
+.primary-banner img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 a {
@@ -76,7 +83,7 @@ or else app font overflows due to increased line-height from page-wrapper */
 }
 
 .content-wrapper {
-  border: 2px solid red;
+  /*border: 2px solid red;*/
   /*margin: 9px auto;*/
   /*padding: 40px;*/
   border-radius: 3px;
@@ -178,16 +185,14 @@ header {
 /*banner related styles------------------------------------------------------ */
 
 .primary-banner {
-  background: url("../images/square.jpg") no-repeat;
-  background-size: cover;
-  /*height: 220px;*/
-  border-radius: 0 0 5px 5px;
+ margin-bottom: 3em;
 }
+
 
 /*images styles-------------------------------------------------------------*/
 
 .projects-container img {
-  width: 100%;
+  /*width: 100%;*/
   display: block;
   border-radius: 5px;
   -webkit-box-shadow: 1px 4px 5px 1px rgba(79, 79, 79, 1);
@@ -281,16 +286,15 @@ footer {
 
 .row {
   width: 100%;
-  /*margin: 0 auto;*/
-   border: 1px solid red;
+   /*border: 1px solid red;*/
 }
 
 .column-4 {
   width: 100%;
-   border: 1px solid blue;
+  height: auto;
    float: left;
    padding: 0;
-   margin-bottom: 1em;
+   margin-bottom: 3em;
 }
 
 /*saran wrap because the div tightens up everything*/
@@ -305,14 +309,19 @@ footer {
 
 .column-4 img {
   width: 100%;
+  margin-bottom: .5em;
 }
 
 /*TABLET*/
 @media only screen and (min-width: 768px) {
+  .primary-banner {
+   margin-bottom: 5em;
+  }
+
   .row {
     width: 90%;
     margin: 0 auto;
-     border: 1px solid red;
+     /*border: 1px solid red;*/
   }
 
   .column-4 {
@@ -339,7 +348,7 @@ footer {
   .row {
     width: 80%;
     margin: 0 auto;
-     border: 1px solid red;
+     /*border: 1px solid red;*/
   }
 
   .column-4 {
