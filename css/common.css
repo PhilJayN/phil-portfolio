@@ -132,13 +132,7 @@ or else app font overflows due to increased line-height from page-wrapper */
 
 .view-on {
   text-align: center;
-   /*border: 1px solid blue;*/
-  /*margin: 20px auto;*/
 }
-
-/*.app-summary {
-  margin: auto;
-}*/
 
 h1 {
   color: #cc171d;
@@ -332,7 +326,7 @@ footer {
 
 
 /*DESKTOP*/
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1025px) {
   .row {
     width: 80%;
     margin: 0 auto;
@@ -344,5 +338,9 @@ footer {
     float: left;
   }
 
+  .app-summary {
+     width: 65%;
+     margin: 0 auto;
+  }
 
   } /*End of desktop*/
