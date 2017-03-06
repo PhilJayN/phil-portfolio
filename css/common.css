@@ -181,6 +181,13 @@ header {
   box-shadow: 1px 4px 5px 1px rgba(79, 79, 79, 1);
 }
 
+.column-4 img {
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 4px 5px 1px rgba(79, 79, 79, 1);
+  -moz-box-shadow: 1px 4px 5px 1px rgba(79, 79, 79, 1);
+  box-shadow: 1px 4px 5px 1px rgba(79, 79, 79, 1);
+}
+
 
 
 figcaption {
@@ -283,10 +290,14 @@ footer {
 
 .column-4 figure {
   margin: 0;   /*This prevents figure from having huge uneeded margin*/
+  /*max-width: 194px;*/
 }
 
 .column-4 img {
   width: 100%;
+  /*border: 1px solid red;*/
+  /*max-width: 194px;
+  max-height: 278px;*/
   margin-bottom: .5em;
 }
 
