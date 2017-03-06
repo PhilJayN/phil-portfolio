@@ -36,8 +36,6 @@ body {
 #mainForm, .calc-result {
     margin: 3px 3px;
     width: 270px;
-    /*width: 55%;*/
-
     /*prevent container from doing the funky chicken dance (getting bigger) when calculation shows up*/
     height: 400px;
     background-color: #ffffff;
@@ -162,3 +160,22 @@ body {
     padding-top: 23px;
     text-align: center;
 }
+
+
+
+/*Mobile phone*/
+/*eliminates landscape mode on mobile*/
+@media only screen and (max-width: 568px) {
+  #mainForm, .calc-result {
+    float: none;
+     border: 1px solid blue;
+
+}
+
+  .gas-container {
+   border: 1px solid blue;
+    width: 95%;
+
+  }
+
+  }
