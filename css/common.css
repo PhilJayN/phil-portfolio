@@ -84,20 +84,14 @@ or else app font overflows due to increased line-height from page-wrapper */
 
 .content-wrapper {
   /*border: 2px solid red;*/
-  /*margin: 9px auto;*/
-  /*padding: 40px;*/
+  width: 95%;
+  margin: 0 auto;
   border-radius: 3px;
-  /*line-height: 1.682;*/
-  /*width: 60%;*/
-  /*min-width: 700px;*/
-  /*Prevent user from big screen making text line length too long*/
-  /*max-width: 1100px;*/
-
+  line-height: 1.582;
 }
 
 .app-area {
-/*width: 75%;
-margin: auto;*/
+  margin: auto;
 }
 
 .content-wrapper a {
@@ -138,14 +132,12 @@ margin: auto;*/
 /*view on github link area*/
 
 .view-on {
-  /*text-align: center;
-  margin: 20px auto;*/
+  text-align: center;
+  margin: 20px auto;
 }
 
 .app-summary {
-  /*border: 4px solid green;*/
-  /*width: 75%;*/
-  /*margin: auto;*/
+  margin: auto;
 }
 
 .lessons-list {
@@ -192,7 +184,7 @@ header {
 /*images styles-------------------------------------------------------------*/
 
 .projects-container img {
-  /*width: 100%;*/
+  /*width: 300%;*/
   display: block;
   border-radius: 5px;
   -webkit-box-shadow: 1px 4px 5px 1px rgba(79, 79, 79, 1);
@@ -301,6 +293,8 @@ footer {
 .saran-wrap {
   width: 95%;
   margin: 0 auto;
+   /*border: 1px solid red;*/
+
 }
 
 .column-4 figure {
@@ -331,19 +325,16 @@ footer {
 
   .column-4 figure {
     margin: 0 1.5em;
-     /*border: 1px solid blue;*/
   }
 
 
   } /*End of tablet*/
 
 
-.one, .two {
+/*.one, .two {
   display: inline-block;
   width: 50%;
-   border: 1px solid blue;
-
-}
+}*/
 
 
 
