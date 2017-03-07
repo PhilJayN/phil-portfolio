@@ -72,6 +72,15 @@ a {
   color: #616161;
 }
 
+.phil-intro p {
+  margin: 0;
+  margin-bottom: .5em;
+}
+
+.name {
+  font-size: 1.5em;
+}
+
 
 /*main content styles---------------------------------------------------------*/
 
@@ -102,6 +111,10 @@ or else app font overflows due to increased line-height from page-wrapper */
   color: #cc171d;
 }
 
+.phil-intro {
+  text-align: center;
+  margin-bottom: 3em;
+}
 .hello {
   color: #cc171d;
   /*font-size: 27px;*/
@@ -171,7 +184,7 @@ header {
 /*banner related styles------------------------------------------------------ */
 
 .primary-banner {
- margin-bottom: 3em;
+ margin-bottom: 2em;
 }
 
 
@@ -187,9 +200,6 @@ header {
 }
 
 .column-4 img {
-  /*width: 50%;
-  height: 50%;*/
-
   width: 100%;
   margin-bottom: .5em;
   border-radius: 5px;
@@ -206,11 +216,9 @@ to set images to be 100% so it fills whole space*/
   height: 80%;
 }
 
-
 figcaption {
   color: black;
   font-size: 1.05em;
-  /*width: 50%;*/
 }
 
 .column-4 a:hover {
@@ -317,7 +325,11 @@ footer {
 @media only screen and (min-width: 768px) {
 
   .primary-banner {
-   margin-bottom: 5em;
+   margin-bottom: 2em;
+  }
+
+  .phil-intro {
+    margin-bottom: 5em;
   }
 
   .row {
@@ -338,11 +350,22 @@ footer {
   }
 
 
+
+
   } /*End of tablet*/
 
 
 /*DESKTOP*/
 @media only screen and (min-width: 1025px) {
+
+  .primary-banner {
+   margin-bottom: 2em;
+  }
+
+  .phil-intro {
+    margin-bottom: 5em;
+  }
+
   .row {
     width: 80%;
     margin: 0 auto;
