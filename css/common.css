@@ -196,8 +196,13 @@ header {
 
 
 figcaption {
+  color: black;
   font-size: 1.05em;
   width: 100%;
+}
+
+.column-4 a:hover {
+  text-decoration: none;
 }
 
 
