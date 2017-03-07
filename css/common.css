@@ -202,11 +202,8 @@ header {
 to set images to be 100% so it fills whole space*/
 .column-4 figure {
   margin: 0 auto;   /*This prevents figure from having huge uneeded margin*/
-  /*max-width: 194px;*/
-  width: 50%;
-  height: 50%;
-   border: 1px solid blue;
-
+  width: 80%;
+  height: 80%;
 }
 
 
@@ -336,9 +333,8 @@ footer {
 
   .column-4 figure {
     margin: 0 auto;   /*This prevents figure from having huge uneeded margin*/
-    width: 50%;
-    height: 50%;
-     border: 1px solid blue;
+    width: 85%;
+    height: 85%;
   }
 
 
@@ -371,9 +367,8 @@ footer {
 
   .column-4 figure {
     margin: 0 auto;   /*This prevents figure from having huge uneeded margin*/
-    width: 50%;
-    height: 50%;
-     border: 1px solid blue;
+    width: 65%;
+    height: 65%;
   }
 
 
