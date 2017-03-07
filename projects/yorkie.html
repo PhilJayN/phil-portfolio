@@ -1,0 +1,105 @@
+---
+layout: default
+---
+<h2>Yorkie Picture Matching Game</h2>
+<div class="app-area">
+    <div class="view-on">
+
+      <a href="http://www.yorkie.world">
+        <img src="../images/dog-matching-game.jpg" alt="" title="" />
+        <p>Go to site</p>
+      </a>
+
+        <p>
+            <a href="https://github.com/PhilJayN/dogMatchingGame">View on GitHub</a>
+        </p>
+    </div>
+
+    <div class="app-summary">
+      <a href="http://www.yorkie.world">
+        <h3>www.yorkie.world</h3>
+      </a>
+          <p>
+            Yorkie World is a site I created for a client who absolutely adores
+            their Yorskire Terrier. The following are their requests:
+          </p>
+        <ul>
+            <li>The site should work on mobile devices, laptops, and desktop computers.</li>
+            <li>There should be a "cool fun game" on the main page.</li>
+            <li>There should be a gallery to showcase selected pictures.</li>
+        </ul>
+
+        <p>
+          I'll be discussing a general step-by-step from the beginning to the end
+          of the project, starting with the planning, developing, and finalizing.
+        </p>
+
+        <h3>Planning</h3>
+          <p>Since this was a deadline oriented project, I wanted to make sure to spend
+          a little bit of extra time during this process to make sure I have a general
+          outline of the whole project. Due to the nature of the project and how it
+          would utilize JavaScript, I knew ahead of time that bugs in the program would
+          be inevitable. Instead of being afraid of it, I wanted to embrace it. Therefore,
+          It was important add in additional time for bug-fixing and testing.</p>
+
+          <h5>Colors and Layout</h5>
+          <p>
+            Looking at the pictures
+            the client gave me, I decided I needed a simple color scheme. I needed
+            a monochromatic scheme. There
+            are about a bazillion different color to chose. An idea struck at
+            me when I was re-reading the client requests. Since they wanted a "cool
+            and fun" game, I literally took that advice and decided to go with
+            a color is is by nature cool instead of warm. Also, blue is typically
+            considered a universally beautiful color, and humans tend to have a
+            positive affinity for blue.
+          </p>
+
+        <h3>Developing</h3>
+        <h5>Picture Matching Game Debugging</h5>
+        I assigned my code in an object literal, using some of the
+        following methods: shuffle(), assignCards(), resetGame(), and handlers().
+        All went well until I hit the weirdest problem while testing: Everytime I
+        called the resetgame() method, console.log showed the shuffled array.
+        However, the picture in the matching game was not being assigned the proper picture.
+
+        <p>
+          I made the most progress during debugging process when I changed my mindset.
+          The solution presented itself when I went from a "I just don't get this" to "I'm going
+          to figure this out no matter what."
+        </p>
+        I went through a list of potential areas in the code that could cause the problem, and
+        narrowed it down to the .assignCards() method. Looking through the source code,
+        the .assignCards() method used jQuery's <code>.attr()</code> methods to change the picture source
+        of the cards.
+        But they were not matching! Upon careful inspection, I noted that both the src
+        and data attribute was being used in the same line of code.
+        <a href="http://stackoverflow.com/questions/9768165/jquery-data-selector-not-updating-with-data">
+          Stack Overflow helped
+          guide me</a>
+         in the right direction. jQuery <code>.data()</code> does not change the attribute
+        in the DOM. This is why the pictures in the memory game was not being updated with
+        the new values from the shuffled array.
+
+
+        <h5>Responsive Design with Media Queries</h5>
+        <p>
+          I decided to go with a <a href="http://bradfrost.com/blog/web/mobile-first-responsive-web-design/">
+          Mobile First</a> design for this project. I really like doing it like this. The limited content of a small
+          phone screen forces me to really focus on the essential content. After testing that the site
+          worked on mobile phones, I moved on to develop for tablets and desktop using media queries.
+          Chrome developer tool device emulator was extremly helpful during the drafting of the site. Of course, the final
+          test was done using real phones.
+        </p>
+
+        <h3>Finalizing</h3>
+          <p>
+          </p>
+          <p>One of the biggest motivating factor was having a deadline. I've learned
+          to embrace deadlines. It drives me forward and keeps me focused. There's
+          no better feeling than having those constant reminders that I needed to
+          finish.</p>
+
+
+    </div>
+</div>

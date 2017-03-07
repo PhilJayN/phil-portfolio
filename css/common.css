@@ -135,12 +135,17 @@ or else app font overflows due to increased line-height from page-wrapper */
 }
 
 h2 {
-  color: #cc171d;
-  text-align: center;*/
+  /*color: #cc171d;*/
+  text-align: center;
 }
 
+h2 {
+  /*color: #cc171d;*/
+}
+
+
 h3 {
-  color: #cc171d;
+  /*color: #cc171d;*/
   /*text-align: center;
   margin: 0;
   padding: 0;*/
@@ -300,20 +305,6 @@ footer {
   max-height: 278px;*/
   margin-bottom: .5em;
 }
-
-
-
-
-.page-wrapper {
- border: 1px solid blue;
- }
-
- .content-wrapper {
-    border: 1px solid blue;
- }
-
-
-
 
 
 /*TABLET rule kicks in when @ 768 and above*/
