@@ -187,18 +187,33 @@ header {
 }
 
 .column-4 img {
+  /*width: 50%;
+  height: 50%;*/
+
+  width: 100%;
+  margin-bottom: .5em;
   border-radius: 5px;
   -webkit-box-shadow: 3px 3px 6px 0 rgba(89, 89, 89, 0.6);
   -moz-box-shadow: 3px 3px 6px 0 rgba(89, 89, 89, 0.6);
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
+/*shrink or grow figure to get children to be smaller. make sure
+to set images to be 100% so it fills whole space*/
+.column-4 figure {
+  margin: 0 auto;   /*This prevents figure from having huge uneeded margin*/
+  /*max-width: 194px;*/
+  width: 50%;
+  height: 50%;
+   border: 1px solid blue;
+
+}
 
 
 figcaption {
   color: black;
   font-size: 1.05em;
-  width: 100%;
+  /*width: 50%;*/
 }
 
 .column-4 a:hover {
@@ -298,18 +313,7 @@ footer {
 
 }
 
-.column-4 figure {
-  margin: 0;   /*This prevents figure from having huge uneeded margin*/
-  /*max-width: 194px;*/
-}
 
-.column-4 img {
-  width: 100%;
-  /*border: 1px solid red;*/
-  /*max-width: 194px;
-  max-height: 278px;*/
-  margin-bottom: .5em;
-}
 
 
 /*TABLET rule kicks in when @ 768 and above*/
