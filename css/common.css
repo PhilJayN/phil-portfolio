@@ -335,7 +335,10 @@ footer {
   }
 
   .column-4 figure {
-    margin: 0 1.5em;
+    margin: 0 auto;   /*This prevents figure from having huge uneeded margin*/
+    width: 50%;
+    height: 50%;
+     border: 1px solid blue;
   }
 
 
@@ -364,6 +367,15 @@ footer {
       width: 65%;
       margin: 0 auto;
   }
+
+
+  .column-4 figure {
+    margin: 0 auto;   /*This prevents figure from having huge uneeded margin*/
+    width: 50%;
+    height: 50%;
+     border: 1px solid blue;
+  }
+
 
 
   } /*End of desktop*/
