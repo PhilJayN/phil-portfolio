@@ -301,12 +301,24 @@ footer {
   margin-bottom: .5em;
 }
 
+
+
+
+.page-wrapper {
+ border: 1px solid blue;
+ }
+
+ .content-wrapper {
+    border: 1px solid blue;
+ }
+
+
+
+
+
 /*TABLET rule kicks in when @ 768 and above*/
 @media only screen and (min-width: 768px) {
 
-  .page-wrapper {
-     /*width: 90%;*/
-  }
   .primary-banner {
    margin-bottom: 5em;
   }
