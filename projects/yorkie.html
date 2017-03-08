@@ -24,78 +24,92 @@ layout: default
             their Yorskire Terrier. The following are their requests:
           </p>
         <ul>
-            <li>The site should work on mobile devices, laptops, and desktop computers.</li>
-            <li>There should be a "cool fun game" on the main page.</li>
-            <li>There should be a gallery to showcase selected pictures.</li>
+            <li>The site should work on phones, laptops, and desktop computers</li>
+            <li>There should be a "cool fun game" on the main page</li>
+            <li>There should be a gallery to showcase selected pictures</li>
         </ul>
 
         <p>
-          I'll be discussing a general step-by-step from the beginning to the end
-          of the project, starting with the planning, developing, and finalizing.
+          I'll be discussing a general step-by-step of the planning, developing, and finalizing.
         </p>
 
         <h3>Planning</h3>
           <p>Since this was a deadline oriented project, I wanted to make sure to spend
-          a little bit of extra time during this process to make sure I have a general
-          outline of the whole project. Due to the nature of the project and how it
-          would utilize JavaScript, I knew ahead of time that bugs in the program would
-          be inevitable. Instead of being afraid of it, I wanted to embrace it. Therefore,
-          It was important add in additional time for bug-fixing and testing.</p>
+          a little bit of extra time during this phase gather data to create a general
+          outline of the whole project. Due to project's dependency on JavaScript,
+          I knew ahead of time that bugs in the program would
+          be inevitable. Instead of being afraid of it, I wanted to embrace it. It was
+          important to allocate additional time for bug fixing and testing.</p>
 
           <h5>Colors and Layout</h5>
           <p>
-            Looking at the pictures
-            the client gave me, I decided I needed a simple color scheme. I needed
-            a monochromatic scheme. There
-            are about a bazillion different color to chose. An idea struck at
+            To get an idea of the color schemes for the site, I looked at the pictures
+            the client gave me. The colors have to have some sort of purpose.
+            The Yorkies are beautiful, so I wanted to accentuate those pictures and not
+            overpower them with colors. Because of this, I decided I needed a simple,
+            monochromatic color scheme. In addition, an idea struck at
             me when I was re-reading the client requests. Since they wanted a "cool
             and fun" game, I literally took that advice and decided to go with
-            a color is is by nature cool instead of warm. Also, blue is typically
+            a color which is by nature cool instead of warm. Also, blue is typically
             considered a universally beautiful color, and humans tend to have a
             positive affinity for blue.
           </p>
 
         <h3>Developing</h3>
+        <h5>Code Organization</h5>
+        <p>My past experiences with JavaScript taught me that I needed a way to organize
+        my code, to make it easier to maintain, read, and debug.
+        There are quite a few ways to organize code, as discussed in jQuery's
+        <a href="https://learn.jquery.com/code-organization/concepts/">Code Organization Concepts.</a>
+        I wanted to keep it simple and organize my code in an object literal, using some of the
+        following methods for the game: shuffle(), assignCards(), resetGame(), and handlers().
+        All went well until I hit the weirdest problem while testing. </p>
         <h5>Picture Matching Game Debugging</h5>
-        I assigned my code in an object literal, using some of the
-        following methods: shuffle(), assignCards(), resetGame(), and handlers().
-        All went well until I hit the weirdest problem while testing: Everytime I
-        called the resetgame() method, console.log showed the shuffled array.
+        <p>Everytime I called the resetgame() method, console.log showed the shuffled array.
         However, the picture in the matching game was not being assigned the proper picture from the array.
-
-        <p>
-          I made the most progress during debugging process when I changed my mindset.
-          The solution presented itself when I went from a "I just don't get this" to "I'm going
-          to figure this out no matter what."
         </p>
-        I went through a list of potential areas in the code that could cause the problem, and
-        narrowed it down to the .assignCards() method. Looking through the source code,
-        the .assignCards() method used jQuery's <code>.attr()</code> methods to change the picture source
+
+        <p>I went through a list of potential areas in the code that could cause the problem and
+        narrowed it down to the .assignCards() method.
+        The .assignCards() method used jQuery's <code>.attr()</code> method to change the picture source
         of the cards.
-        But they were not matching! Upon careful inspection, I noted that both the src
-        and data attribute was being used in the same line of code.
+        But they were not matching! Upon careful inspection, I noticed that
+        <code>.attr()</code> and <code>.data()</code> was being used in the same line of code.
         <a href="http://stackoverflow.com/questions/9768165/jquery-data-selector-not-updating-with-data">
           Stack Overflow helped
           guide me</a>
-         in the right direction. jQuery <code>.data()</code> does not change the attribute
+         in the right direction. jQuery's <code>.data()</code> does not change the attribute
         in the DOM. This is why the pictures in the memory game was not being updated with
-        the new values from the shuffled array.
+        the new values from the shuffled array. All I had to do was change <code>.data()</code> to <code>.attr()</code>.
+      </p>
 
+    <p>
+        I made the most progress during debugging process when I changed my mindset.
+        The solution presented itself when I went from a "I just don't get this" to "I'm going
+        to figure this out no matter what."
+    </p>
 
         <h5>Responsive Design with Media Queries</h5>
         <p>
           I decided to go with a <a href="http://bradfrost.com/blog/web/mobile-first-responsive-web-design/">
-          Mobile First</a> design for this project. I really like doing it like this. The limited content of a small
-          phone screen forces me to really focus on the essential content. After testing that the site
+          Mobile First</a> design for this project. The limited content of a small
+          phone screen forced me to really focus on the essential content of the project.
+           After testing that the site
           worked on mobile phones, I moved on to develop for tablets and desktop using media queries.
           Chrome developer tool device emulator was extremly helpful during the drafting of the site. Of course, the final
           test was done using real phones.
         </p>
 
-        <h3>Finalizing</h3>
+        <h3>Summary</h3>
           <p>
           </p>
-          <p>One of the biggest motivating factor was having a deadline. I've learned
+          <p>This was a very rewarding project. The debugging process was one of the
+            most challenging. But my past experiences taught me to have a methodical approach
+            to finding bugs: Narrow it down to the parts that might cause problem. This is why it's important
+            to write modular code, to help during these situations. I'm on a quest to become better at debugging
+            and writing clean code.</p>
+            As a side note,
+            one of the biggest motivating factor was having a deadline. I've learned
           to embrace deadlines. It drives me forward and keeps me focused. There's
           no better feeling than having those constant reminders that I needed to
           finish.</p>
