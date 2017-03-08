@@ -104,17 +104,18 @@ or else app font overflows due to increased line-height from page-wrapper */
 
 .content-wrapper a {
   color: #cc171d;
+  text-decoration: underline;
 }
 
-.content-wrapper a:hover {
-  text-decoration: underline;
-  color: #cc171d;
+.column-4 a {
+  text-decoration: none;
 }
 
 .phil-intro {
   text-align: center;
   margin-bottom: 3em;
 }
+
 .hello {
   color: #cc171d;
   /*font-size: 27px;*/
