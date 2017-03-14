@@ -311,13 +311,12 @@ footer {
    margin-bottom: 3em;
 }
 
+
 /*saran wrap because the div tightens up everything*/
 .saran-wrap {
   width: 95%;
   margin: 0 auto;
 }
-
-
 
 
 /*TABLET rule kicks in when @ 768 and above*/
@@ -393,3 +392,11 @@ footer {
   }
 
   } /*End of desktop*/
+
+
+  /*.last-project {
+    float: none;
+    display: block;
+     border: 1px solid red;
+     margin: 0 auto;
+  }*/
