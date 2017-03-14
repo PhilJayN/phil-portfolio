@@ -155,15 +155,12 @@ body {
 .footerContent {
     clear: both;
     margin: auto;
-    /*width: 490px;*/
-    width: 60%;
+    width: 35%;
     color: #444;
     font-size: 16px;
     padding-top: 23px;
     text-align: center;
 }
-
-
 
 /*Mobile phone*/
 /*eliminates landscape mode on mobile*/

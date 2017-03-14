@@ -379,7 +379,7 @@ footer {
   }
 
   .app-summary {
-     width: 65%;
+     width: 45%;
      margin: 0 auto;
   }
 
@@ -388,13 +388,10 @@ footer {
       margin: 0 auto;
   }
 
-
   .column-4 figure {
     margin: 0 auto;   /*This prevents figure from having huge uneeded margin*/
     width: 65%;
     height: 65%;
   }
-
-
 
   } /*End of desktop*/
