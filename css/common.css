@@ -148,6 +148,17 @@ or else app font overflows due to increased line-height from page-wrapper */
   text-align: center;
 }
 
+.primary-btn {
+  background-color: #cc171d;
+  color: white;
+  font-size: 1.2em;
+  padding: .80em 1.3em;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+}
+
+
 h2 {
   /*color: #cc171d;*/
   text-align: center;
