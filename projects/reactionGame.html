@@ -4,100 +4,83 @@ layout: default
 <h2>Reaction Game</h2>
 <div class="app-area">
     <div class="view-on">
-        <img src="../images/reaction-game.jpg" alt="See how fast your fingers are with this game!" title="Reaction game" />
+        <!-- <img src="../images/reaction-game.jpg" alt="See how fast your fingers are with this game!" title="Reaction game" /> -->
         <p>
             <a href="https://github.com/PhilJayN/reactionGame">View on GitHub</a>
         </p>
 
         <a href="https://philjayn.github.io/reactionGame/">
-          <button class="primary-btn" type="button" name="button">Play Reaction Game</button>
+            <button class="primary-btn" type="button" name="button">Play Reaction Game</button>
         </a>
 
     </div>
 
     <div class="app-summary">
-        <h3>Lessons Learned</h3>
+        <h3>How the Game Works</h3>
         <ul>
 
         </ul>
 
+        <p>
+            At the core of the game's code is a <code>.render()</code> method whose primary
+            job is, just like its name suggests, is to render the target for the user to hit.
+        </p>
+
+        <p>
+            Here is a tiny, condensed code snippet:
+        </p>
+
+        <code>
+{% highlight ruby %}
+var App = {
+
+  render: function() {
+
+    var posX = (Math.random() * (wMax - wBox)).toFixed();
+    var posY = (Math.random() * (hMax - hBox)).toFixed();
+
+    $bullseye.css({
+      'position': 'absolute',
+      'left': posX + 'px',
+      'top': posY + 'px',
+    });
+  },
+
+}
+{% endhighlight %}
+</code>
+
 <p>
-  At the core of the game's code is a .render() method whose primary job is, just like it's name suggests,
-  is to render the target for the user to hit.
+    The variables posX and posY will have a new random number assigned when the <code>.render()</code> method is called.
+    The properties 'left' and 'top' gets assigned whatever number is generated from the two aforementioned variables.
+    Then the target will be rendered in its new position!
 </p>
 
-Here is a tiny, condensed code snippet:
-
-<code>
-
-
-    render: function () {
-      var $bullseye = $('.bullseye');
-      var $rxnGameWrapper = $('.rxn-game-wrapper');
-
-      var posX = (Math.random() * (wMax - wBox)).toFixed();
-      var posY = (Math.random() * (hMax - hBox)).toFixed();
-
+    <code>
+      {% highlight ruby %}
       $bullseye.css({
         'position': 'absolute',
         'left': posX +'px',
         'top': posY + 'px',
       });
-    },
+      {% endhighlight %}
+    </code>
 
-</code>
 
-        <h3>Challenges</h3>
+<h3>Challenges</h3>
         <p>
-          The goal is to use jQuery and CSS to assign a random position for the target.
-          If we were to do this manually, we would do something like this: </p>
-
-<code>
-  $bullseye.css({
-    'position': 'absolute',
-    'left': '23px',
-    'top':  '130px',
-  });
-</code>
-
-But we have computers to do the work for us:
-
-<code>
-  $bullseye.css({
-    'position': 'absolute',
-    'left': posX +'px',
-    'top': posY + 'px',
-  });
-</code>
-
-<p>
-  The variable posX and posY will have a new random number everytime the render method is
-  used. This will allow us to have different positions.
-</p>
-
-<p>
-          During the development process, one of the challenge is keeping the target
-          inside its container. Because the target's position is set to absolute in CSS,
-          it does not stay within the confiment of its parent div. The goal is to
-          generate a "random" position to assign to the CSS 'left' and 'top' property. To solve this problem,
-          the following steps were used:
-
+            During the development process, one of the challenge is keeping the target inside its container.
+             Because the target's position is set to absolute in CSS, it does not stay within the confiment of its parent div.
+            To solve this problem, the following steps were used:
         </p>
 
-<ul>
-  <li>Find the size of the game container(ex: 200px) and subtract the target size(ex: 50px) from it, resulting in 150px</li>
-  <li>Generate a "random" number and multiply it by 150px from above step</li>
-  <li></li>
+        <ul>
+            <li>Find the size of the game container(ex: 200px) and subtract the target size(ex: 50px) from it, resulting in 150px</li>
+            <li>Generate a "random" number using <code>Math.random()</code> and multiply it by 150px from above step</li>
+        </ul>
 
-</ul>
-
-<p>
-  That's it! Now everytime the .render() method is called, the 'left' and 'top' position
-  of the target gets assigned a new number. Then the target will be rendered in its new position!
-</p>
-
-        <h3>Final Note</h3>
         <p>
+            That's it!
         </p>
 
     </div>

@@ -1,3 +1,4 @@
 baseurl: /phil-portfolio
 exclude: ['README.md']
 port: 4444
+highlighter: rouge

@@ -152,7 +152,7 @@ or else app font overflows due to increased line-height from page-wrapper */
   background-color: #cc171d;
   color: white;
   font-size: 1.2em;
-  padding: .80em 1.3em;
+  padding: .80em 1em;
   outline: none;
   border: none;
   border-radius: 3px;
