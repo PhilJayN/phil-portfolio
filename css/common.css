@@ -407,6 +407,9 @@ footer {
     margin: 0 auto;   /*This prevents figure from having huge uneeded margin*/
     width: 65%;
     height: 65%;
+
+    width: 80%;
+    height: 80%;
   }
 
   } /*End of desktop*/
