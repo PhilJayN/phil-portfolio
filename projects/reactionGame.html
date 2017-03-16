@@ -23,19 +23,20 @@ layout: default
 
         <p>
             At the core of the game's code is a <code>.render()</code> method whose primary
-            job is, just like its name suggests, is to render the target for the user to hit.
+            job is to render the target for the user to hit.
         </p>
 
         <p>
             Here is a tiny, condensed code snippet:
         </p>
 
-        <code>
-{% highlight ruby %}
+<pre>
+<code class="language-js">
 var App = {
 
   render: function() {
 
+    var $bullseye = $('.bullseye');
     var posX = (Math.random() * (wMax - wBox)).toFixed();
     var posY = (Math.random() * (hMax - hBox)).toFixed();
 
@@ -47,25 +48,14 @@ var App = {
   },
 
 }
-{% endhighlight %}
 </code>
+</pre>
 
 <p>
     The variables posX and posY will have a new random number assigned when the <code>.render()</code> method is called.
-    The properties 'left' and 'top' gets assigned whatever number is generated from the two aforementioned variables.
+    The properties 'left' and 'top' gets assigned the value from the aforementioned variables.
     Then the target will be rendered in its new position!
 </p>
-
-    <code>
-      {% highlight ruby %}
-      $bullseye.css({
-        'position': 'absolute',
-        'left': posX +'px',
-        'top': posY + 'px',
-      });
-      {% endhighlight %}
-    </code>
-
 
 <h3>Challenges</h3>
         <p>
