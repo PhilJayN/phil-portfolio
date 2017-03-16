@@ -148,6 +148,11 @@ or else app font overflows due to increased line-height from page-wrapper */
   text-align: center;
 }
 
+.project-yorkie-face {
+  border-radius: 5px;
+}
+
+
 .primary-btn {
   background-color: #cc171d;
   color: white;
