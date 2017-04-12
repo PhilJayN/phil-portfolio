@@ -162,6 +162,7 @@ or else app font overflows due to increased line-height from page-wrapper */
   outline: none;
   border: none;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 
