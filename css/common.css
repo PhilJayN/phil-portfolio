@@ -305,12 +305,6 @@ footer {
   border-radius: 3px 3px 0 0;
 }
 
-
-.msg-update {
-   /*margin-bottom: 0;*/
-}
-
-
 .about-me {
     width: 95%;
     margin: 0 auto;
@@ -416,9 +410,11 @@ footer {
   } /*End of desktop*/
 
 
-  /*.last-project {
+/*Prevent the last project from doing funky chicken dance on window resize. */
+  .last-project {
     float: none;
     display: block;
-     border: 1px solid red;
-     margin: 0 auto;
-  }*/
+    /*optional: set margin like this to individually keep project thumbnail in middle*/
+     /*margin: 0 auto;*/
+     margin-bottom: 33px;
+  }
