@@ -76,6 +76,7 @@ a {
 .phil-intro p {
   margin: 0;
   margin-bottom: .5em;
+  text-align: left;
 }
 
 .name {
@@ -113,8 +114,10 @@ or else app font overflows due to increased line-height from page-wrapper */
 }
 
 .phil-intro {
-  text-align: center;
   margin-bottom: 3em;
+   width: 60%;
+   margin: 0 auto;
+      
 }
 
 .hello {
