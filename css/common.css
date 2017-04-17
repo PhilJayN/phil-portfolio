@@ -32,7 +32,6 @@ COLOR GUIDE
 
 ------------------------------------------------------------------------------*/
 
-
 html {
   font-size: 16px;
 }
@@ -63,15 +62,12 @@ body {
   height: 100%;
 }*/
 .primary-banner {
-  padding: 3em;;
-  width: 100%;
+  padding: 3em;
   height: 500px;
-  background-image: url("/images/sfog.jpg");
   background-size: cover;
 }
 
 .primary-banner img {
-  width: 100%;
   max-width: 100%;
   height: auto;
   background-size: cover;
@@ -115,9 +111,6 @@ a {
 
 /*this rule will override the page-wrapper line-height,
 or else app font overflows due to increased line-height from page-wrapper */
-.app-font-wrapper {
-  /*line-height: 1.2;*/
-}
 
 .content-wrapper {
   /*display: none;*/
@@ -149,27 +142,12 @@ or else app font overflows due to increased line-height from page-wrapper */
 
 .hello {
   color: #cc171d;
-  /*font-size: 27px;*/
-  /*text-align: left;*/
 }
 
 .who-am-i {
-  /*text-align: center;
-  margin: auto;*/
   color: #9C1014;
-  /*font-size: 33px;*/
   font-family: 'Raleway', sans-serif;
-  /*margin-bottom: 60px;
-  margin-top: 30px;*/
 }
-
-.projects-container {
-  /*text-align: center;*/
-}
-
-/*.project-calc, .project-gas-calc, .project-my-site, .placeholder {
-}*/
-
 
 /*project summary styles-------------------------------------------*/
 
@@ -195,22 +173,9 @@ or else app font overflows due to increased line-height from page-wrapper */
   cursor: pointer;
 }
 
-
 h2 {
   /*color: #cc171d;*/
   text-align: center;
-}
-
-h2 {
-  /*color: #cc171d;*/
-}
-
-
-h3 {
-  /*color: #cc171d;*/
-  /*text-align: center;
-  margin: 0;
-  padding: 0;*/
 }
 
 /*misc border styles--------------------------------------------------------- */
@@ -430,9 +395,6 @@ footer {
 
   .column-4 figure {
     margin: 0 auto;   /*This prevents figure from having huge uneeded margin*/
-    width: 65%;
-    height: 65%;
-
     width: 80%;
     height: 80%;
   }
