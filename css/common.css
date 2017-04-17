@@ -93,6 +93,10 @@ a:visited {
   text-align: left;
 }
 
+.hero-about-me {
+  display: none;
+}
+
 .hero-name {
   font-size: 1.5em;
 }
