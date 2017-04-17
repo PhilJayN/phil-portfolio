@@ -52,18 +52,39 @@ body {
   padding: .50em;
 }
 
+/*Anchor links styles------------------------------------------------------------- */
+
 a {
   text-decoration: none;
+}
+
+/*projects desc. links*/
+.column-4 a:hover {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D50000;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #D50000;
 }
 
 .menu-links {
   font-size: 1.1em;
   padding: .5em;
-  color: #f5f5f5;
+  color: #d2d2d2;
 }
 
 .menu-links:hover {
   color: #616161;
+  color: white;
+}
+
+.menu-links:visited {
+  color: #d2d2d2;
 }
 
 .phil-intro p {
@@ -92,15 +113,6 @@ or else app font overflows due to increased line-height from page-wrapper */
 
 .app-area {
   margin: auto;
-}
-
-.content-wrapper a {
-  color: #cc171d;
-  text-decoration: underline;
-}
-
-.column-4 a {
-  text-decoration: none;
 }
 
 .phil-intro {
@@ -221,10 +233,6 @@ to set images to be 100% so it fills whole space*/
 figcaption {
   color: black;
   font-size: 1.05em;
-}
-
-.column-4 a:hover {
-  text-decoration: none;
 }
 
 
