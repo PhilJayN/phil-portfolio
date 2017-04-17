@@ -139,6 +139,12 @@ or else app font overflows due to increased line-height from page-wrapper */
   text-align: center;
 }
 
+.view-on img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+
 .project-yorkie-face {
   border-radius: 5px;
 }
