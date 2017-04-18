@@ -335,11 +335,28 @@ footer {
 }
 
 
+
+
+ /*SMALL SCREEN*/
+ @media only screen and (max-width: 767px) {
+   .primary-banner {
+     margin-bottom: 2em;
+   }
+
+   .phil-intro {
+     width: 95%;
+     font-size: .75em;
+   }
+
+}
+
 /*TABLET rule kicks in when @ 768 and above*/
 @media only screen and (min-width: 768px) {
 
+
   .primary-banner {
    margin-bottom: 2em;
+    border: 1px solid blue;
   }
 
   .phil-intro {
