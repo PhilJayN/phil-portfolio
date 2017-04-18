@@ -205,7 +205,7 @@ header {
   background-image:
     linear-gradient(
       rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0, 0.8)
     ),
     url(/images/sfog.jpg);
 }
@@ -356,7 +356,6 @@ footer {
 
   .primary-banner {
    margin-bottom: 2em;
-    border: 1px solid blue;
   }
 
   .phil-intro {
