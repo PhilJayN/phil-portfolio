@@ -191,23 +191,23 @@ header {
 
 .primary-banner {
   padding: 3em;
-  height: 500px;
+  height: 900px;
   background-size: cover;
 }
 
 .primary-banner img {
   max-width: 100%;
-  height: auto;
-  background-size: cover;
+  /*height: auto;*/
+  /*background-size: cover;*/
 }
 
 .darken {
   background-image:
     linear-gradient(
       rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.8)
+      rgba(0, 0, 0, 0.5)
     ),
-    url(/images/sfog.jpg);
+    url(/images/IMG_5486.JPG);
 }
 
 
