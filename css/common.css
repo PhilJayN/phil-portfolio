@@ -87,22 +87,6 @@ a:visited {
   color: #d2d2d2;
 }
 
-.phil-intro p {
-  margin: 0;
-  margin-bottom: .5em;
-  text-align: left;
-  text-shadow: 0 1px 1px rgba(0,0,0,.8);
-}
-
-.hero-about-me {
-  display: none;
-}
-
-.hero-name {
-  font-size: 1.5em;
-}
-
-
 /*main content styles---------------------------------------------------------*/
 
 /*this rule will override the page-wrapper line-height,
@@ -118,13 +102,6 @@ or else app font overflows due to increased line-height from page-wrapper */
 
 .app-area {
   margin: auto;
-}
-
-.phil-intro {
-  margin-bottom: 3em;
-   width: 60%;
-   margin: 0 auto;
-   color: white;
 }
 
 .hello {
@@ -191,6 +168,7 @@ header {
 /*banner related styles------------------------------------------------------ */
 
 .primary-banner {
+  text-align: center;
   padding: 3em;
   height: 900px;
   background-size: cover;
@@ -217,13 +195,35 @@ lighter pastel blue: 80c3c3
 brigther blue: 20c3c3
 */
 
-
 .darken-brighter {
   background:
     linear-gradient(#56cde6, transparent 90%), /*main overall color*/
     linear-gradient(0deg, #EDEFF0, transparent 50%), /*color should be same as background color to blend seamlessly into it*/
     #ffa949 url(/images/IMG_5486.JPG) no-repeat center;
     background-size: cover;
+}
+
+.phil-intro {
+  margin-bottom: 3em;
+   width: 60%;
+   margin: 0 auto;
+   color: white;
+}
+
+.phil-intro p {
+  margin: 0;
+  margin-bottom: .5em;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(0,0,0,.8);
+}
+
+.hero-about-me {
+  display: none;
+  text-align: center;
+}
+
+.hero-name {
+  font-size: 1.5em;
 }
 
 
@@ -450,4 +450,9 @@ footer {
     /*optional: set margin like this to individually keep project thumbnail in middle*/
      /*margin: 0 auto;*/
      margin-bottom: 33px;
+  }
+
+
+  .hero-name p {
+    text-align: center;
   }
