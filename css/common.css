@@ -41,6 +41,7 @@ html {
 }
 
 body {
+  background-color: #EDEFF0;
   font-family: 'Lato', sans-serif;
   margin: 0;
 }
@@ -90,6 +91,7 @@ a:visited {
   margin: 0;
   margin-bottom: .5em;
   text-align: left;
+  text-shadow: 0 1px 1px rgba(0,0,0,.8);
 }
 
 .hero-about-me {
@@ -200,26 +202,34 @@ header {
   /*background-size: cover;*/
 }
 
-.darken {
+/*.darken {
   background-image:
     linear-gradient(
       rgba(0, 0, 0, 0.1),
       rgba(0, 0, 0, 0.2)
     ),
     url(/images/IMG_5486.JPG);
-}
+}*/
+
+/*
+darker blue: 75b6b6
+lighter pastel blue: 80c3c3
+brigther blue: 20c3c3
+*/
 
 
 .darken-brighter {
-  background: linear-gradient(#80c3c3, transparent 90%),
-              linear-gradient(0deg, #fff, transparent),
-              #ffa949 url(/images/IMG_5486.JPG) no-repeat center;
-  background-size: cover;
-  color: white;
+  background:
+    linear-gradient(#56cde6, transparent 90%), /*main overall color*/
+    linear-gradient(0deg, #EDEFF0, transparent 50%), /*color should be same as background color to blend seamlessly into it*/
+    #ffa949 url(/images/IMG_5486.JPG) no-repeat center;
+    background-size: cover;
 }
+
 
 .what-i-do {
   margin-bottom: 5em;
+  text-shadow: 0 1px 1px rgba(0,0,0,.8);
 }
 
 /*images styles-------------------------------------------------------------*/
