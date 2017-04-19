@@ -203,12 +203,20 @@ header {
 .darken {
   background-image:
     linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.2)
     ),
     url(/images/IMG_5486.JPG);
 }
 
+
+.darken-brighter {
+  background: linear-gradient(#80c3c3, transparent 90%),
+              linear-gradient(0deg, #fff, transparent),
+              #ffa949 url(/images/IMG_5486.JPG) no-repeat center;
+  background-size: cover;
+  color: white;
+}
 
 .what-i-do {
   margin-bottom: 5em;
