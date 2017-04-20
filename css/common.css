@@ -32,8 +32,6 @@ COLOR GUIDE
 
 ------------------------------------------------------------------------------*/
 
-
-
 html {
   font-size: 16px;
 }
@@ -150,7 +148,6 @@ or else app font overflows due to increased line-height from page-wrapper */
   border-radius: 5px;
 }
 
-
 .primary-btn {
   background-color: #cc171d;
   color: white;
@@ -163,7 +160,6 @@ or else app font overflows due to increased line-height from page-wrapper */
 }
 
 h2 {
-  /*color: #cc171d;*/
   text-align: center;
 }
 
@@ -175,38 +171,18 @@ header, .contact, footer {
   box-shadow: 0 0 6px 0 rgba(168, 168, 168, 1);
 }
 
-
-/*important to have border radius for header, due to image having border radius,
-or else header will show a pointy edge under image with border radius*/
-
-header {
-  /*border-radius: 0 0 10px 10px;*/
-}
-
-
 /*banner related styles------------------------------------------------------ */
 
 .primary-banner {
+  border: 1px solid blue;
   text-align: center;
-  padding: 3em;
-  height: 900px;
+  margin-bottom: 2em;
   background-size: cover;
 }
 
 .primary-banner img {
   max-width: 100%;
-  /*height: auto;*/
-  /*background-size: cover;*/
 }
-
-/*.darken {
-  background-image:
-    linear-gradient(
-      rgba(0, 0, 0, 0.1),
-      rgba(0, 0, 0, 0.2)
-    ),
-    url(/images/IMG_5486.JPG);
-}*/
 
 /*
 darker blue: 75b6b6
@@ -370,20 +346,9 @@ footer {
   margin: 0 auto;
 }
 
-
-
-
- /*SMALL SCREEN*/
- @media only screen and (max-width: 767px) {
-   .primary-banner {
-     margin-bottom: 2em;
-   }
-
-   .phil-intro {
-     width: 95%;
-     font-size: .75em;
-   }
-
+.phil-intro {
+ width: 95%;
+ font-size: .75em;
 }
 
 /*TABLET rule kicks in when @ 768 and above*/
@@ -464,6 +429,7 @@ footer {
     margin: 0 auto;   /*This prevents figure from having huge uneeded margin*/
     width: 80%;
     height: 80%;
+    margin-bottom: 110px;
   }
 
   } /*End of desktop*/
