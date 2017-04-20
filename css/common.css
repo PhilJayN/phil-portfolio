@@ -76,7 +76,7 @@ a {
 }
 
 /*projects desc. links*/
-.column-4 a:hover {
+.column a:hover {
   text-decoration: none;
 }
 
@@ -238,7 +238,7 @@ brigther blue: 20c3c3
   box-shadow: 1px 4px 5px 1px rgba(79, 79, 79, 1);
 }
 
-.column-4 img {
+.column img {
   width: 100%;
   margin-bottom: .5em;
   border-radius: 5px;
@@ -249,7 +249,7 @@ brigther blue: 20c3c3
 
 /*shrink or grow figure to get children to be smaller. make sure
 to set images to be 100% so it fills whole space*/
-.column-4 figure {
+.column figure {
   margin: 0 auto;   /*This prevents figure from having huge uneeded margin*/
   width: 80%;
   height: 80%;
@@ -323,13 +323,13 @@ footer {
   overflow: auto;/*Very important so that projects stretch even if figcaption stretch! */
 }
 
-.column-4 {
+.column {
   width: 100%;
   height: auto;
   padding: 0;
   margin-bottom: 3em;
+  margin: 0 auto 5em auto;
 }
-
 
 /*saran wrap because the div tightens up everything*/
 .saran-wrap {
@@ -365,11 +365,11 @@ footer {
     margin: 0 auto;
   }
 
-  .column-4 {
+  .column {
     width: 60%;
   }
 
-  .column-4 figure {
+  .column figure {
     margin: 0 auto;   /*This prevents figure from having huge uneeded margin*/
     width: 85%;
     height: 85%;
@@ -394,7 +394,7 @@ footer {
     margin: 0 auto;
   }
 
-  .column-4 {
+  .column {
     width: 25%;
   }
 
@@ -408,7 +408,7 @@ footer {
       margin: 0 auto;
   }
 
-  .column-4 figure {
+  .column figure {
     margin: 0 auto;   /*This prevents figure from having huge uneeded margin*/
     width: 80%;
     height: 80%;
@@ -421,12 +421,10 @@ footer {
      border: 1px solid red;
   }
 
-
   .saran-wrap {
      border: 1px solid blue;
   }
 
-  .column-4 {
+  .column {
      border: 1px solid green;
-     margin: 0 auto 5em auto;
   }
