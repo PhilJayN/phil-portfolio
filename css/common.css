@@ -215,6 +215,8 @@ brigther blue: 20c3c3
 .hero-about-me {
   display: none;
   text-align: center;
+   border: 1px solid blue;
+   margin-bottom: 45px;
 }
 
 .hero-name {
@@ -222,14 +224,13 @@ brigther blue: 20c3c3
 }
 
 .what-i-do {
-  margin-bottom: 5em;
+  margin-bottom: 4em;
   text-shadow: 0 1px 1px rgba(0,0,0,.8);
 }
 
 /*images styles-------------------------------------------------------------*/
 
 .projects-container img {
-  /*width: 300%;*/
   display: block;
   border-radius: 5px;
   -webkit-box-shadow: 1px 4px 5px 1px rgba(79, 79, 79, 1);
@@ -259,21 +260,12 @@ figcaption {
   font-size: 1.05em;
 }
 
-
 /*footer, contact, & font awesome styles. html found in footer.html,
 in _includes folder-----------------------------------------------------------*/
 
 footer {
-  border-radius: 0 0 3px 3px;
   color: #e0dcdc;
   clear: both;
-}
-
-
-.created-with-pizza {
-  background-color: #cc3d43;
-  padding: 1em;
-  font-size: 14px;
 }
 
 .fa-github-square {
@@ -328,15 +320,14 @@ footer {
 
 .row {
   width: 100%;
-  overflow: auto;/*Very important so that projects strectch even if figcaption stretch! */
+  overflow: auto;/*Very important so that projects stretch even if figcaption stretch! */
 }
 
 .column-4 {
   width: 100%;
   height: auto;
-   /*float: left;*/
-   padding: 0;
-   margin-bottom: 3em;
+  padding: 0;
+  margin-bottom: 3em;
 }
 
 
@@ -354,7 +345,6 @@ footer {
 /*TABLET rule kicks in when @ 768 and above*/
 @media only screen and (min-width: 768px) {
 
-
   .primary-banner {
    margin-bottom: 2em;
   }
@@ -366,20 +356,17 @@ footer {
   .row {
     width: 90%;
     margin: 0 auto;
-     /*border: 1px solid red;*/
   }
 
   .saran-wrap {
-     display: block;
-     text-align: center;
+   display: block;
+   text-align: center;
     width: 95%;
     margin: 0 auto;
   }
 
-
   .column-4 {
-    width: 50%;
-    /*float: left;*/
+    width: 60%;
   }
 
   .column-4 figure {
@@ -387,7 +374,6 @@ footer {
     width: 85%;
     height: 85%;
   }
-
 
   } /*End of tablet*/
 
@@ -406,13 +392,10 @@ footer {
   .row {
     width: 80%;
     margin: 0 auto;
-     /*border: 1px solid red;*/
   }
 
   .column-4 {
-    /*width: 33.33333%;*/
     width: 25%;
-    /*float: left;*/
   }
 
   .app-summary {
@@ -434,25 +417,6 @@ footer {
 
   } /*End of desktop*/
 
-
-/*Prevent the last project from doing funky chicken dance on window resize. */
-  .last-project {
-    float: none;
-    display: block;
-    /*optional: set margin like this to individually keep project thumbnail in middle*/
-     /*margin: 0 auto;*/
-     margin-bottom: 33px;
-  }
-
-
-  .hero-name p {
-    text-align: center;
-  }
-
-
-
-/*
-
   .row {
      border: 1px solid red;
   }
@@ -461,9 +425,8 @@ footer {
   .saran-wrap {
      border: 1px solid blue;
   }
-*/
 
   .column-4 {
-     /*border: 1px solid green;*/
-     margin: 0 auto;
+     border: 1px solid green;
+     margin: 0 auto 5em auto;
   }
