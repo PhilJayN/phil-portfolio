@@ -48,8 +48,18 @@ body {
 
 /*Nav bar styles------------------------------------------------------------- */
 .primary-nav {
+  /*display: none;*/
+  width: 100%;
   background: #E1F5FE;
   padding: .50em;
+}
+
+.fixed-nav {
+  background-color: red;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 2000;
 }
 
 /*Anchor links styles------------------------------------------------------------- */
@@ -226,7 +236,6 @@ brigther blue: 20c3c3
   font-size: 1.5em;
 }
 
-
 .what-i-do {
   margin-bottom: 5em;
   text-shadow: 0 1px 1px rgba(0,0,0,.8);
@@ -261,7 +270,7 @@ to set images to be 100% so it fills whole space*/
 }
 
 figcaption {
-  color: black;
+  color: #444;
   font-size: 1.05em;
 }
 

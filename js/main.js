@@ -22,3 +22,20 @@ $(window).scroll(function() {
   // console.log('scrolled');
 
 });
+
+var $primaryNav = $('.primary-nav');
+var $primaryBanner = $('.primary-banner');
+
+// console.log('primaryNav', $primaryNav);
+console.log('primary-banner height', $primaryBanner.height() );
+
+var $primaryBanner = $primaryBanner.height();
+$(window).scroll(function(){
+  if ( $(this).scrollTop() > $primaryBanner) {
+    $primaryNav.addClass('fixed-nav');
+  } else {
+    $primaryNav.removeClass('fixed-nav');
+  }
+});
+
+// variableName = $("selector here");
