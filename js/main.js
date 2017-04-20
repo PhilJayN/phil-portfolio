@@ -23,15 +23,16 @@ $(window).scroll(function() {
 
 });
 
-var $primaryNav = $('.primary-nav');
+var $primaryNav = $('.home-pg-nav');
 var $primaryBanner = $('.primary-banner');
 
 // console.log('primaryNav', $primaryNav);
-console.log('primary-banner height', $primaryBanner.height() );
+console.log('primary-banner height', $primaryBanner.outerHeight() );
 
-var $primaryBanner = $primaryBanner.height();
 $(window).scroll(function(){
-  if ( $(this).scrollTop() > $primaryBanner) {
+  console.log('primary-banner height', $primaryBanner.height() );
+console.log('this', $(this).scrollTop());
+  if ( $(this).scrollTop() > $primaryBanner.outerHeight() ) {
     $primaryNav.addClass('fixed-nav');
   } else {
     $primaryNav.removeClass('fixed-nav');

@@ -48,14 +48,20 @@ body {
 
 /*Nav bar styles------------------------------------------------------------- */
 .primary-nav {
-  /*display: none;*/
   width: 100%;
   background: #E1F5FE;
   padding: .50em;
 }
 
+.home-pg-nav {
+  display: none;
+  background: #E1F5FE;
+  padding: .50em;
+}
+
 .fixed-nav {
-  background-color: red;
+  display: initial;
+  background-color: tomato;
   position: fixed;
   width: 100%;
   top: 0;
