@@ -32,6 +32,8 @@ COLOR GUIDE
 
 ------------------------------------------------------------------------------*/
 
+
+
 html {
   font-size: 16px;
 }
@@ -57,11 +59,12 @@ body {
   display: none;
   background: #E1F5FE;
   padding: .50em;
+  border-bottom: 2px solid #f5f5f5;
 }
 
 .fixed-nav {
   display: initial;
-  background-color: tomato;
+  background-color: white;
   position: fixed;
   width: 100%;
   top: 0;
@@ -355,7 +358,7 @@ footer {
 .column-4 {
   width: 100%;
   height: auto;
-   float: left;
+   /*float: left;*/
    padding: 0;
    margin-bottom: 3em;
 }
@@ -401,9 +404,17 @@ footer {
      /*border: 1px solid red;*/
   }
 
+  .saran-wrap {
+     display: block;
+     text-align: center;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+
   .column-4 {
     width: 50%;
-    float: left;
+    /*float: left;*/
   }
 
   .column-4 figure {
@@ -436,7 +447,7 @@ footer {
   .column-4 {
     /*width: 33.33333%;*/
     width: 25%;
-    float: left;
+    /*float: left;*/
   }
 
   .app-summary {
@@ -470,4 +481,23 @@ footer {
 
   .hero-name p {
     text-align: center;
+  }
+
+
+
+/*
+
+  .row {
+     border: 1px solid red;
+  }
+
+
+  .saran-wrap {
+     border: 1px solid blue;
+  }
+*/
+
+  .column-4 {
+     /*border: 1px solid green;*/
+     margin: 0 auto;
   }
