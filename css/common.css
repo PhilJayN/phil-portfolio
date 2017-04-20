@@ -46,6 +46,17 @@ body {
   margin: 0;
 }
 
+/*Generic------------------------------------------------------------- */
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+
 /*Nav bar styles------------------------------------------------------------- */
 .primary-nav {
   width: 100%;
@@ -239,7 +250,7 @@ brigther blue: 20c3c3
 }
 
 .column img {
-  width: 100%;
+  width: 50%;
   margin-bottom: .5em;
   border-radius: 5px;
   -webkit-box-shadow: 3px 3px 6px 0 rgba(89, 89, 89, 0.6);
@@ -390,12 +401,22 @@ footer {
   }
 
   .row {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
   }
 
   .column {
-    width: 25%;
+    width: 50%;
+  }
+
+  .column-screenshot {
+    /*column is a block level div, so use text-align to center*/
+    text-align: center;
+  }
+
+  .column img{
+    margin: 0 auto;
+     border: 1px solid blue;
   }
 
   .app-summary {
@@ -408,23 +429,28 @@ footer {
       margin: 0 auto;
   }
 
-  .column figure {
-    margin: 0 auto;   /*This prevents figure from having huge uneeded margin*/
-    width: 80%;
-    height: 80%;
-    margin-bottom: 110px;
-  }
 
   } /*End of desktop*/
 
-  .row {
-     border: 1px solid red;
-  }
 
-  .saran-wrap {
-     border: 1px solid blue;
-  }
 
-  .column {
-     border: 1px solid green;
-  }
+
+
+.row {
+   border: 1px solid red;
+}
+.saran-wrap {
+   border: 1px solid blue;
+}
+.column {
+   border: 1px solid green;
+}
+
+
+
+/*.container {
+  width: 50%;
+   border: 1px solid blue;
+   overflow: auto;
+   margin: 0 auto;
+}*/
