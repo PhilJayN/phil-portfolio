@@ -13,6 +13,11 @@
     padding: 12em;
   }
 
+  .nav-wrapper {
+    width: 70%;
+    margin: 0 auto;
+  }
+
   .row {
     width: 70%;
     /*margin: 0 auto;*/
