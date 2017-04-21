@@ -10,32 +10,12 @@
     margin-bottom: 5em;
   }
 
-  .row {
-    width: 90%;
-    margin: 0 auto;
-    margin-bottom: 2.5em;
-  }
-
-  .saran-wrap {
-   display: block;
-   text-align: center;
-    width: 95%;
-    margin: 0 auto;
-  }
-
-  .column {
-    width: 60%;
-  }
-
-  .column figure {
-    margin: 0 auto;   /*This prevents figure from having huge uneeded margin*/
-    width: 85%;
-    height: 85%;
-  }
-
   .column-desc p {
     font-size: 1.3em;
   }
 
+  .column-screenshot img {
+     width: 30%;
+  }
 
   } /*End of tablet*/
