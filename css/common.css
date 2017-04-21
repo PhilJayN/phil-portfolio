@@ -208,10 +208,11 @@ brigther blue: 20c3c3
 }
 
 .phil-intro {
-  margin-bottom: 3em;
    width: 60%;
    margin: 0 auto;
    color: white;
+   padding: 3em;
+
 }
 
 .phil-intro p {
