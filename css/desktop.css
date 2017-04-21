@@ -33,7 +33,9 @@
   }
 
   .column-desc p {
-    font-size: .80em;
+    font-size: 1.1em;
+    line-height: 1.582;
+
   }
 
   .app-summary {
