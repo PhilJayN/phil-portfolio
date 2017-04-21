@@ -67,6 +67,14 @@ body {
   border-bottom: 2px solid #f5f5f5;
 }
 
+.primary-nav img {
+  width: 2.5%;
+}
+
+.home-pg-nav img {
+  width: 2.5%;
+}
+
 .fixed-nav {
   display: initial;
   color: #333333;
@@ -334,7 +342,7 @@ footer {
 
 .row {
   border-bottom: 1px solid silver;
-  margin-bottom: 2.5em;
+  margin-bottom: 5em;
   width: 100%;
   overflow: auto;/*Very important so that projects stretch even if figcaption stretch! */
 }
