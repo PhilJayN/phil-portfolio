@@ -129,6 +129,10 @@ or else app font overflows due to increased line-height from page-wrapper */
   margin: auto;
 }
 
+.app-summary {
+  color: #333333;
+}
+
 .hello {
   color: #cc171d;
 }
@@ -347,6 +351,7 @@ footer {
 
 .column-desc p {
   font-size: 1.2em;
+  color: #333333;
 }
 
 
@@ -368,6 +373,10 @@ footer {
    border: 1px solid green;
 }*/
 
+
+.project-heading {
+  text-align: center;
+}
 
 h1 {
   padding-top: 0;
