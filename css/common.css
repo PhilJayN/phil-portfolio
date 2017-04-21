@@ -180,6 +180,7 @@ header, .contact, footer {
   text-align: center;
   margin-bottom: 2em;
   background-size: cover;
+  /*height: 700px;*/
 }
 
 .primary-banner img {
