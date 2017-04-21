@@ -67,6 +67,10 @@ body {
   border-bottom: 2px solid #f5f5f5;
 }
 
+.nav-wrapper span {
+  margin-left: 13px;
+}
+
 .primary-nav img {
   width: 2.5%;
 }
