@@ -63,7 +63,7 @@ body {
 .home-pg-nav {
   display: none;
   background: #E1F5FE;
-  padding: .50em;
+  padding: .25em 0 0 0;
   border-bottom: 2px solid #f5f5f5;
 }
 
@@ -76,7 +76,8 @@ body {
 }
 
 .home-pg-nav img {
-  width: 2.5%;
+  display: inline;
+  padding-left: .5em;
 }
 
 .fixed-nav {
