@@ -25,6 +25,10 @@
     margin: 0 auto;
   }
 
+  .column-desc p {
+    font-size: .90em;
+  }
+
   .app-summary {
      width: 45%;
      margin: 0 auto;

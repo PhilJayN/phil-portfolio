@@ -33,4 +33,9 @@
     height: 85%;
   }
 
+  .column-desc p {
+    font-size: 1.3em;
+  }
+
+
   } /*End of tablet*/
