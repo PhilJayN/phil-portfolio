@@ -1,0 +1,43 @@
+
+
+/*DESKTOP*/
+@media only screen and (min-width: 1025px) {
+
+  .primary-banner {
+   margin-bottom: 7em;
+  }
+
+  .phil-intro {
+    margin-bottom: 7em;
+  }
+
+  .row {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .column {
+    width: 50%;
+  }
+
+  .column-screenshot {
+    /*column is a block level div, so use text-align to center*/
+    text-align: center;
+  }
+
+  .column img{
+    margin: 0 auto;
+  }
+
+  .app-summary {
+     width: 45%;
+     margin: 0 auto;
+  }
+
+  .about-me {
+      width: 65%;
+      margin: 0 auto;
+  }
+
+
+  } /*End of desktop*/
