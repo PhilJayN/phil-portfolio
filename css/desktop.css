@@ -18,11 +18,7 @@
 
   .column {
     width: 50%;
-  }
-
-  .column-screenshot {
-    /*column is a block level div, so use text-align to center*/
-    text-align: center;
+    margin: 0 auto 4.5em auto;
   }
 
   .column img{

@@ -329,6 +329,8 @@ footer {
 }
 
 .row {
+  border-bottom: 1px solid silver;
+  margin-bottom: 2.5em;
   width: 100%;
   overflow: auto;/*Very important so that projects stretch even if figcaption stretch! */
 }
@@ -337,14 +339,17 @@ footer {
   width: 100%;
   height: auto;
   padding: 0;
-  margin-bottom: 3em;
-  margin: 0 auto 5em auto;
+  margin: 0 auto 1em auto;
+  color: #636363;
 }
 
-/*saran wrap because the div tightens up everything*/
-.saran-wrap {
-  width: 95%;
-  margin: 0 auto;
+.column-screenshot {
+  /*column is a block level div, so use text-align to center*/
+  text-align: center;
+}
+
+.column-desc {
+  padding: 0 1.5em 0 1.5em;
 }
 
 .phil-intro {
@@ -354,10 +359,8 @@ footer {
 
 
 
-/*
 
-
-.row {
+/*.row {
    border: 1px solid red;
 }
 .saran-wrap {
@@ -365,15 +368,6 @@ footer {
 }
 .column {
    border: 1px solid green;
-}*/
-
-
-
-/*.container {
-  width: 50%;
-   border: 1px solid blue;
-   overflow: auto;
-   margin: 0 auto;
 }*/
 
 
