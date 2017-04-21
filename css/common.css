@@ -392,11 +392,18 @@ h1 {
 
 h2 {
   color: #095DB1;
-  font-size: 1.1em;
+  font-size: 1.25em;
 }
 
 h3 {
   /*color: #4FB5F7;*/
-  font-size: .80em;
+  font-size: 1.15em;
+}
 
+.tech-heading {
+   margin-bottom: .40em;
+}
+
+.tech-text {
+  margin-top: .40em;
 }
