@@ -90,29 +90,19 @@ a {
   color: #4FB5F7;
 }
 
-
-/*projects desc. links*/
-.column a:hover {
-  text-decoration: none;
+a:visited {
+  color: #4FB5F7;
 }
 
 a:hover {
   opacity: .5;
 }
 
-a:visited {
-  color: #4FB5F7;
-}
-
+/*For navigation bars*/
 .menu-links {
   font-size: 1.1em;
   padding: .5em;
-  color: #d2d2d2;
-}
-
-.menu-links:hover {
-  color: #616161;
-  color: white;
+  color: #333333;
 }
 
 .menu-links:visited {
