@@ -32,6 +32,12 @@ COLOR GUIDE
 
 ------------------------------------------------------------------------------*/
 
+/*for sticky footer:*/
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -113,6 +119,12 @@ a:hover {
 
 /*this rule will override the page-wrapper line-height,
 or else app font overflows due to increased line-height from page-wrapper */
+
+/*for sticky footer:*/
+.page-wrapper {
+   min-height: 100%;
+   margin-bottom: -190px;
+}
 
 .content-wrapper {
   width: 95%;
@@ -277,6 +289,11 @@ footer {
   clear: both;
 }
 
+/*for sticky footer:*/
+footer, .push {
+  height: 190px;
+}
+
 .fa-github-square {
   color: #333333;
    margin-right: 1em;
@@ -318,8 +335,10 @@ footer {
 
 .contact-links {
   background-color: #E4EAED;
+  /*background-color: gray;*/
   color: #333;
-  padding: 1em;
+  padding: 1.6em;
+   height: 100%;
 }
 
 .about-me {
