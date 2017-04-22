@@ -131,11 +131,11 @@ or else app font overflows due to increased line-height from page-wrapper */
 }
 
 .hello {
-  color: #cc171d;
+  color: #333333;
 }
 
 .who-am-i {
-  color: #9C1014;
+  color: #333333;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -326,6 +326,7 @@ footer {
 .about-me {
     width: 95%;
     margin: 0 auto;
+    color: #333333;
 }
 
 .row {
