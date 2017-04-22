@@ -169,7 +169,7 @@ or else app font overflows due to increased line-height from page-wrapper */
 
 /*misc border styles--------------------------------------------------------- */
 
-header, .contact, footer, .home-pg-nav{
+header, footer, .home-pg-nav{
   -webkit-box-shadow: 0 0 6px 0 rgba(168, 168, 168, 1);
   -moz-box-shadow: 0 0 6px 0 rgba(168, 168, 168, 1);
   box-shadow: 0 0 6px 0 rgba(168, 168, 168, 1);
@@ -317,8 +317,8 @@ footer {
 }
 
 .contact-links {
-  background-color: #737977;
-  color: #f5f5f5;
+  background-color: #E4EAED;
+  color: #333;
   padding: 1em;
 }
 
