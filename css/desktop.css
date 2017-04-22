@@ -36,7 +36,7 @@
   }
 
   .column img{
-    width: 50%;
+    width: 65%;
     margin: 0 auto;
   }
 
@@ -45,9 +45,8 @@
   }
 
   .column-desc p {
-    font-size: 1.1em;
+    font-size: .95em;
     line-height: 1.582;
-
   }
 
   .app-summary {
