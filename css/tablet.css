@@ -2,6 +2,11 @@
 /*TABLET rule kicks in when @ 768 and above*/
 @media only screen and (min-width: 768px) {
 
+  .content-wrapper {
+    margin: 2em auto 2em auto;
+  }
+
+
   .primary-banner {
    margin-bottom: 2em;
    height: 600px;
