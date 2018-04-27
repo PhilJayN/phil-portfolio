@@ -427,3 +427,7 @@ h3 {
 .tech-text {
   margin-top: .40em;
 }
+input {
+  display: block;
+  border: 1px solid red; 
+}
