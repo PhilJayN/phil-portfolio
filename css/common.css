@@ -208,7 +208,7 @@ brigther blue: 20c3c3
 
 .darken-brighter {
   background:
-    linear-gradient(#56cde6, transparent 90%), /*main overall color*/
+    linear-gradient(#56cde6, transparent 95%), /*main overall color*/
     linear-gradient(0deg, #EDEFF0, transparent 50%), /*color should be same as background color to blend seamlessly into it*/
     #ffa949 url(/images/hero-image-majestic-mountain-lake.JPG) no-repeat center;
     background-size: cover;
