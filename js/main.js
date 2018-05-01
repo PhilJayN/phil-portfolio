@@ -14,7 +14,7 @@ $(window).scroll(function() {
       }
     );
 
-    $heroAboutMe.slideDown(2000);
+    $heroAboutMe.slideDown(1400);
     //make sure to track scroll state
     scrollState = 'scrolled';
   }
